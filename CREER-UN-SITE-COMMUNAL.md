@@ -50,7 +50,7 @@ Chaque entrée `library.json` porte auteur, licence, URL source : ne validez que
 ### 4. Build et vérification
 
 ```bash
-npm run build        # 176 pages doivent être générées
+npm run build        # 616 pages doivent être générées
 npm run check        # liens, alt, h1…
 npm run shoot        # 180 pages × 5 viewports
 ```
@@ -66,7 +66,7 @@ La galerie affiche alors la commune automatiquement ; toutes les directions l'ut
 3. **`src/templates/ma21direction.mjs`** — exportez `meta` (depuis `meta.mjs`) et `render(commune, ctx)`. Construisez avec les primitives existantes (`demoBar`, `brand`, `navToggle`, `serviceExplorer`, `newsSection`, `mapSection`, `contactSection`, `footer`, `reportDialog`…). **Ne copiez jamais un bloc d'une autre direction pour simuler une nouveauté : pas de formulaire, de carte ou de footer ad hoc.**
 4. **`src/styles/templates/ma21direction.css`** — socle + surcharge. Gardez : skip-link, `:focus-visible`, `prefers-reduced-motion`, un seul `<h1>`, heading order, contraste, `overflow-wrap`.
 5. **Polices** — si une nouvelle famille est nécessaire : téléchargez les WOFF2 latin/latin-ext dans `assets/fonts/` + un fichier `assets/fonts/<famille>.css` (modèle des existants) ; sans WOFF2, réutilisez une famille existante.
-6. **QA** — `npm run verify` ; capturez `node scripts/screenshot.mjs --shots` ; vérifiez les 8 communes × la direction, pas seulement celle par défaut.
+6. **QA** — `npm run verify` ; capturez `node scripts/screenshot.mjs --shots` ; vérifiez les 28 communes × la direction, pas seulement celle par défaut.
 
 Critères de validation d'une direction :
 

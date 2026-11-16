@@ -19,6 +19,26 @@ const communeDefaultTemplate = {
   natitingou: "monolithe",
   nikki: "griot",
   "so-ava": "lagune",
+  "abomey-calavi": "atlas",
+  allada: "registre",
+  bohicon: "tambour",
+  cove: "tissage",
+  lokossa: "place-publique",
+  "grand-popo": "monolithe",
+  dogbo: "griot",
+  aplahoue: "lagune",
+  djougou: "atlas",
+  kandi: "registre",
+  banikoara: "tambour",
+  malanville: "tissage",
+  tchaourou: "place-publique",
+  bembereke: "monolithe",
+  dassa: "griot",
+  savalou: "lagune",
+  ketou: "atlas",
+  sakete: "registre",
+  boukoumbe: "tambour",
+  adjohoun: "tissage",
 };
 
 function mark() {
@@ -57,7 +77,7 @@ function footer() {
       <nav aria-label="Liens de la démonstration">
         <h2>Explorer</h2>
         <a href="#directions">Les 22 directions</a>
-        <a href="#communes">Les 8 communes</a>
+        <a href="#communes">Les ${communes.length} communes</a>
         <a href="/system.html">Design system</a>
         <a href="/system.html#credits">Crédits photographiques</a>
       </nav>
@@ -71,7 +91,7 @@ function footer() {
       <div>
         <h2>Technique</h2>
         <p>Générateur statique Node.js, zéro dépendance d'exécution. HTML pré-rendu, CSS local, modules ES natifs, polices auto-hébergées.</p>
-        <p class="gal-foot__meta">176 pages · 8 communes · 22 directions</p>
+        <p class="gal-foot__meta">${22 * communes.length} pages · ${communes.length} communes · 22 directions</p>
       </div>
     </div>
     <div class="gal-wrap gal-foot__bottom">
@@ -123,6 +143,7 @@ function previewCard(t, previews) {
 
 export function renderGallery({ templates, previews }) {
   const families = [...new Set(templates.map((t) => t.family))];
+  const pageCount = templates.length * communes.length;
   const cards = templates.map((t) => previewCard(t, previews)).join("");
   const indexLinks = templates
     .map(
@@ -147,7 +168,7 @@ export function renderGallery({ templates, previews }) {
     "@type": "CollectionPage",
     name: "Atelier communal — vingt-deux directions de sites communaux",
     description:
-      "Galerie de démonstration de vingt-deux directions graphiques et éditoriales pour les communes du Bénin, déclinées sur huit communes fictives. Contenus non officiels.",
+      "Galerie de démonstration de vingt-deux directions graphiques et éditoriales pour les communes du Bénin, déclinées sur " + communes.length + " communes fictives. Contenus non officiels.",
     url: `${site.baseUrl}/`,
     inLanguage: "fr",
     isAccessibleForFree: true,
@@ -174,8 +195,8 @@ export function renderGallery({ templates, previews }) {
             <p class="gal-hero__lead">Pas vingt-deux peaux de couleurs. Vingt-deux directions graphiques et éditoriales, portées par une même architecture de contenu et de données. Chaque direction change la hiérarchie, le rythme, la typographie et la manière de raconter — jamais la crédibilité.</p>
             <dl class="gal-hero__figures">
               <div><dt>Directions</dt><dd>22</dd></div>
-              <div><dt>Communes</dt><dd>8</dd></div>
-              <div><dt>Pages</dt><dd>176</dd></div>
+              <div><dt>Communes</dt><dd>${communes.length}</dd></div>
+              <div><dt>Pages</dt><dd>${pageCount}</dd></div>
               <div><dt>Dépendances</dt><dd>0</dd></div>
             </dl>
           </div>
@@ -209,12 +230,12 @@ export function renderGallery({ templates, previews }) {
           <div class="gal-section-head">
             <div>
               <p class="gal-eyebrow"><span></span>La collection</p>
-              <h2>Les vingt et une directions</h2>
+              <h2>Les vingt-deux directions</h2>
             </div>
-            <p class="gal-directions__lead">Chaque carte ouvre la direction sur sa commune d'élection. Les huit noms en bas permettent de vérifier le même système sur un autre territoire.</p>
+            <p class="gal-directions__lead">Chaque carte ouvre la direction sur sa commune d'élection. Les ${communes.length} noms en bas permettent de vérifier le même système sur un autre territoire.</p>
           </div>
           <div class="gal-filters" role="group" aria-label="Filtrer les directions par famille">
-            <button type="button" class="is-active" data-gallery-filter="all" aria-pressed="true">Toutes <span>20</span></button>
+            <button type="button" class="is-active" data-gallery-filter="all" aria-pressed="true">Toutes <span>${templates.length}</span></button>
             ${families.map((f) => `<button type="button" data-gallery-filter="${esc(familySlug(f))}" aria-pressed="false">${esc(f)} <span>${templates.filter((t) => t.family === f).length}</span></button>`).join("")}
           </div>
           <p class="gal-count" data-gallery-count aria-live="polite">22 directions affichées</p>
@@ -227,7 +248,7 @@ export function renderGallery({ templates, previews }) {
           <div class="gal-section-head">
             <div>
               <p class="gal-eyebrow"><span></span>Le test</p>
-              <h2>Huit communes,<br><em>pas huit copies.</em></h2>
+              <h2>${communes.length} communes,<br><em>pas ${communes.length} copies.</em></h2>
             </div>
             <p class="gal-directions__lead">Cotonou n'est pas Ouidah. Sô-Ava n'est pas Natitingou. Chaque fiche communale apporte son identité, son motif, sa géographie, son économie, ses actualités et ses services. Les directions révèlent ces différences au lieu de les lisser.</p>
           </div>
@@ -245,10 +266,10 @@ export function renderGallery({ templates, previews }) {
             <p class="gal-directions__lead">Le contenu est validé au build, les images sont servies en WebP avec dimensions réservées, les polices sont auto-hébergées, les interactions sont des modules ES natifs.</p>
           </div>
           <ol class="gal-pipeline">
-            <li><span>01</span><h3>Données communales</h3><p>Huit fiches structurées : identité, récit, chiffres, actualités, projets, carte, patrimoine, contacts.</p></li>
+            <li><span>01</span><h3>Données communales</h3><p>${communes.length} fiches structurées : identité, récit, chiffres, actualités, projets, carte, patrimoine, contacts.</p></li>
             <li><span>02</span><h3>Primitives partagées</h3><p>Images responsives, emblèmes géométriques, composants de démarches, carte schématique, dialogues accessibles.</p></li>
             <li><span>03</span><h3>Direction éditoriale</h3><p>Une grille, une typographie, un rythme de sections et des signatures propres à chaque direction.</p></li>
-            <li><span>04</span><h3>HTML statique</h3><p>176 pages pré-rendues, sans hydratation ni dépendance côté client. Déploiement sur n'importe quel hébergeur de fichiers.</p></li>
+            <li><span>04</span><h3>HTML statique</h3><p>${pageCount} pages pré-rendues, sans hydratation ni dépendance côté client. Déploiement sur n'importe quel hébergeur de fichiers.</p></li>
           </ol>
           <div class="gal-system__links">
             <a href="/system.html">Lire le design system ${icon("arrow-right", { size: 18 })}</a>
@@ -263,7 +284,7 @@ export function renderGallery({ templates, previews }) {
   return documentShell({
     title: "Atelier communal — vingt-deux directions de sites communaux · démonstration",
     description:
-      "Vingt-deux directions graphiques et éditoriales originales pour des sites communaux béninois, déclinées sur huit communes fictives. Démonstration : contenus non officiels.",
+      "Vingt-deux directions graphiques et éditoriales originales pour des sites communaux béninois, déclinées sur " + communes.length + " communes fictives. Démonstration : contenus non officiels.",
     canonical: `${site.baseUrl}/`,
     body,
     bodyClass: "page page--gallery",

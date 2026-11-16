@@ -1,6 +1,7 @@
 node_modules/
 dist/
 assets/img/raw/
+assets/img/raw2/
 assets/img/sheets/
 .vercel
 .DS_Store

@@ -48,7 +48,7 @@ Chaque entrée : `alt, caption, place, sources[{w,h,file,bytes}], tint, credit, 
 
 ## 4. Pipeline de build
 
-`scripts/build.mjs` (≈ 1 s pour 176 pages) :
+`scripts/build.mjs` (≈ 2 s pour 616 pages) :
 
 1. `fs.rm(dist)` puis recréation de la structure ;
 2. chargement des directions (strict) ;

@@ -1726,5 +1726,2033 @@
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:20170322-2017_A630732_(33596263881).jpg"
+ },
+ "djougou-paysage": {
+  "alt": "Vue sur la campagne verdoyante autour de Djougou",
+  "caption": "La campagne de la Donga",
+  "place": "Djougou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/djougou-paysage-640.webp",
+    "bytes": 31862
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/djougou-paysage-1280.webp",
+    "bytes": 130106
+   }
+  ],
+  "tint": "#918e78",
+  "credit": "KORA Ashraf",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Barrage_de_Djougou.jpg"
+ },
+ "banikoara-ville": {
+  "alt": "L'hôtel de ville de Banikoara",
+  "caption": "Le centre administratif",
+  "place": "Banikoara",
+  "sources": [
+   {
+    "w": 640,
+    "h": 481,
+    "file": "/assets/img/banikoara-ville-640.webp",
+    "bytes": 29258
+   }
+  ],
+  "tint": "#94927a",
+  "credit": "Ross.Patrick",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Hotel_de_ville_%28Mairie%29_de_Banikoara.jpg"
+ },
+ "malanville-ville": {
+  "alt": "Femmes portant des bassines sur le pont de Malanville",
+  "caption": "Sur le pont, entre ville et fleuve",
+  "place": "Malanville",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/malanville-ville-640.webp",
+    "bytes": 53196
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/malanville-ville-1280.webp",
+    "bytes": 167098
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/malanville-ville-1920.webp",
+    "bytes": 323312
+   }
+  ],
+  "tint": "#7f7871",
+  "credit": "Banasylve",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:On_the_edge_from_the_Niger_river%2C_Malanville.jpg"
+ },
+ "malanville-site": {
+  "alt": "L'île de Lété sur le fleuve Niger, photographie d'archives",
+  "caption": "L'île de Lété, sur le Niger (archive)",
+  "place": "Malanville",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/malanville-site-640.webp",
+    "bytes": 7176
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/malanville-site-1280.webp",
+    "bytes": 26722
+   }
+  ],
+  "tint": "#aba9b2",
+  "credit": "Fred van der Kraaij",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_20_-_036_-_L%27%C3%AEle_de_L%C3%A9t%C3%A9_sur_le_fleuve_Niger_avec_deux_petites_colonies_-_Fronti%C3%A8re_Niger-B%C3%A9nin%2C_1972.tif"
+ },
+ "malanville-paysage": {
+  "alt": "La lagune de Guéné, ses bananiers et ses berges cultivées",
+  "caption": "La lagune de Guéné",
+  "place": "Guéné",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/malanville-paysage-640.webp",
+    "bytes": 39568
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/malanville-paysage-1280.webp",
+    "bytes": 173376
+   }
+  ],
+  "tint": "#787657",
+  "credit": "DoussFrance",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Lac_de_Gu%C3%A9n%C3%A9.jpg"
+ },
+ "malanville-vie": {
+  "alt": "Femmes lavant le linge au bord de la lagune de Guéné",
+  "caption": "La vie au bord de l'eau",
+  "place": "Guéné",
+  "sources": [
+   {
+    "w": 640,
+    "h": 640,
+    "file": "/assets/img/malanville-vie-640.webp",
+    "bytes": 64532
+   },
+   {
+    "w": 1280,
+    "h": 1280,
+    "file": "/assets/img/malanville-vie-1280.webp",
+    "bytes": 249950
+   }
+  ],
+  "tint": "#8c897a",
+  "credit": "Koubourat",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Femmes_faisant_la_lessive_dans_le_Lac_de_Gu%C3%A9n%C3%A9.jpg"
+ },
+ "tchaourou-ville": {
+  "alt": "Entrée de Tchaourou et sa route bordée de champs",
+  "caption": "L'entrée de Tchaourou",
+  "place": "Tchaourou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/tchaourou-ville-640.webp",
+    "bytes": 43520
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/tchaourou-ville-1280.webp",
+    "bytes": 217670
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/tchaourou-ville-1920.webp",
+    "bytes": 544466
+   }
+  ],
+  "tint": "#8e908c",
+  "credit": "Saliousoft",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Armature_urbaine_de_la_commune_de_Tchaourou_en_saison_des_pluies_02.jpg"
+ },
+ "tchaourou-paysage": {
+  "alt": "Piste de latérite traversant la forêt de l'Ouémé supérieure",
+  "caption": "La piste forestière",
+  "place": "Tchaourou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 360,
+    "file": "/assets/img/tchaourou-paysage-640.webp",
+    "bytes": 66932
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "file": "/assets/img/tchaourou-paysage-1280.webp",
+    "bytes": 279976
+   }
+  ],
+  "tint": "#2a5d5d",
+  "credit": "Auresolla",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vue_panomarique_de_la_flore_bordante_la_voie.jpg"
+ },
+ "bembereke-ville": {
+  "alt": "Panneau d'entrée de Bembéréké au bord de la route",
+  "caption": "L'entrée de Bembéréké",
+  "place": "Bembéréké",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/bembereke-ville-640.webp",
+    "bytes": 48226
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/bembereke-ville-1280.webp",
+    "bytes": 226494
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/bembereke-ville-1920.webp",
+    "bytes": 592354
+   }
+  ],
+  "tint": "#a29b85",
+  "credit": "ChamsyGAO",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Bemb%C3%A9r%C3%A9k%C3%A9.jpg"
+ },
+ "bembereke-paysage": {
+  "alt": "Rizière et savane arborée autour de Bembéréké",
+  "caption": "Les rizières du Borgou",
+  "place": "Bembéréké",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/bembereke-paysage-640.webp",
+    "bytes": 37652
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/bembereke-paysage-1280.webp",
+    "bytes": 160142
+   }
+  ],
+  "tint": "#9ca972",
+  "credit": "Africa Rice Center",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Rice_cultivation_in_Benin_-_panoramio_%2822%29.jpg"
+ },
+ "savalou-paysage": {
+  "alt": "Vue sur la ville et les collines de Savalou",
+  "caption": "Savalou et ses collines",
+  "place": "Savalou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 360,
+    "file": "/assets/img/savalou-paysage-640.webp",
+    "bytes": 58492
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "file": "/assets/img/savalou-paysage-1280.webp",
+    "bytes": 258074
+   }
+  ],
+  "tint": "#7e8a7e",
+  "credit": "Semako64",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Paysage_des_Collines_de_Savalou_20.jpg"
+ },
+ "savalou-vie": {
+  "alt": "Femmes portant des pots sur une rue de Savalou",
+  "caption": "Le transport des pots",
+  "place": "Savalou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/savalou-vie-640.webp",
+    "bytes": 89724
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/savalou-vie-1280.webp",
+    "bytes": 333542
+   }
+  ],
+  "tint": "#7d5c53",
+  "credit": "GBETONGNINOUGBO JOSEPH HERVE AHISSOU",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:The_clich%C3%A9_of_equality%21.jpg"
+ },
+ "ketou-paysage": {
+  "alt": "Allée d'arbres à l'entrée de Kétou",
+  "caption": "L'entrée de Kétou",
+  "place": "Kétou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 411,
+    "file": "/assets/img/ketou-paysage-640.webp",
+    "bytes": 62724
+   },
+   {
+    "w": 1280,
+    "h": 823,
+    "file": "/assets/img/ketou-paysage-1280.webp",
+    "bytes": 250970
+   }
+  ],
+  "tint": "#716d61",
+  "credit": "MathieuC26",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_%C3%A0_K%C3%A9tou.jpg"
+ },
+ "sakete-ville": {
+  "alt": "Entrée du centre universitaire de Sakété",
+  "caption": "Le centre universitaire",
+  "place": "Sakété",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/sakete-ville-640.webp",
+    "bytes": 24268
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/sakete-ville-1280.webp",
+    "bytes": 140204
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/sakete-ville-1920.webp",
+    "bytes": 375186
+   }
+  ],
+  "tint": "#968b7b",
+  "credit": "Saliousoft",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Centre_universitaire_de_Sak%C3%A9k%C3%A9.jpg"
+ },
+ "sakete-site": {
+  "alt": "La route de Sakété, photographie d'archives",
+  "caption": "La route de Sakété (archive)",
+  "place": "Sakété",
+  "sources": [
+   {
+    "w": 640,
+    "h": 475,
+    "file": "/assets/img/sakete-site-640.webp",
+    "bytes": 82406
+   },
+   {
+    "w": 1280,
+    "h": 949,
+    "file": "/assets/img/sakete-site-1280.webp",
+    "bytes": 329162
+   }
+  ],
+  "tint": "#726949",
+  "credit": "Gadmer Frédéric",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:La_route_de_Sak%C3%A9t%C3%A9_-_A64183S.jpg"
+ },
+ "boukoumbe-ville": {
+  "alt": "Rue commerçante de Boukoumbé",
+  "caption": "La rue commerçante",
+  "place": "Boukoumbé",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/boukoumbe-ville-640.webp",
+    "bytes": 45274
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/boukoumbe-ville-1280.webp",
+    "bytes": 207456
+   },
+   {
+    "w": 1920,
+    "h": 1280,
+    "file": "/assets/img/boukoumbe-ville-1920.webp",
+    "bytes": 520548
+   }
+  ],
+  "tint": "#a69179",
+  "credit": "Ji-Elle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Boukoumb%C3%A9-Magasin_%282%29.jpg"
+ },
+ "boukoumbe-site": {
+  "alt": "Tata de terre à toit de chaume, à Boukoumbé",
+  "caption": "Le tata, architecture vivante",
+  "place": "Boukoumbé",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/boukoumbe-site-640.webp",
+    "bytes": 73308
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/boukoumbe-site-1280.webp",
+    "bytes": 342416
+   }
+  ],
+  "tint": "#9b8576",
+  "credit": "Kennethdegan",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Local_tata.jpg"
+ },
+ "boukoumbe-paysage": {
+  "alt": "Collines verdoyantes à l'entrée de Boukoumbé",
+  "caption": "Les collines de l'Atacora",
+  "place": "Boukoumbé",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/boukoumbe-paysage-640.webp",
+    "bytes": 71980
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/boukoumbe-paysage-1280.webp",
+    "bytes": 326206
+   }
+  ],
+  "tint": "#7f8a72",
+  "credit": "Florentin66",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Les_collines_%C3%A0_l%27entr%C3%A9e_de_Boukoumb%C3%A9.jpg"
+ },
+ "boukoumbe-vie": {
+  "alt": "Rue du marché et échoppes de Boukoumbé",
+  "caption": "Le marché de proximité",
+  "place": "Boukoumbé",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/boukoumbe-vie-640.webp",
+    "bytes": 51652
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/boukoumbe-vie-1280.webp",
+    "bytes": 234722
+   }
+  ],
+  "tint": "#938172",
+  "credit": "Ji-Elle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Boukoumb%C3%A9-Rue_%281%29.jpg"
+ },
+ "dogbo-ville": {
+  "alt": "Entrée du site des hommes à queue, à Dogbo",
+  "caption": "L'entrée du site",
+  "place": "Dogbo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 320,
+    "file": "/assets/img/dogbo-ville-640.webp",
+    "bytes": 55982
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "file": "/assets/img/dogbo-ville-1280.webp",
+    "bytes": 228692
+   },
+   {
+    "w": 1920,
+    "h": 960,
+    "file": "/assets/img/dogbo-ville-1920.webp",
+    "bytes": 530690
+   }
+  ],
+  "tint": "#8f6b42",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vue_d%27entr%C3%A9e_du_site_des_hommes_%C3%A0_queue_a_Dogo_au_B%C3%A9nin.jpg"
+ },
+ "dogbo-site": {
+  "alt": "Salle d'accueil au toit de chaume du site des hommes à queue",
+  "caption": "L'accueil du site",
+  "place": "Dogbo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 320,
+    "file": "/assets/img/dogbo-site-640.webp",
+    "bytes": 47114
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "file": "/assets/img/dogbo-site-1280.webp",
+    "bytes": 226402
+   }
+  ],
+  "tint": "#a68e70",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Salle_d%27accueil_du_site_homme_%C3%A0_queue_%C3%A0_Dogbo_%28B%C3%A9nin%29.jpg"
+ },
+ "dogbo-paysage": {
+  "alt": "Galerie souterraine du site des hommes à queue",
+  "caption": "La galerie souterraine",
+  "place": "Dogbo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 320,
+    "file": "/assets/img/dogbo-paysage-640.webp",
+    "bytes": 38158
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "file": "/assets/img/dogbo-paysage-1280.webp",
+    "bytes": 185968
+   }
+  ],
+  "tint": "#786a5f",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Trois_de_la_galerie_souterraine_avec_des_prolongements_r%C3%A9alis%C3%A9s_par_des_hommes_%C3%A0_Dogbo_au_B%C3%A9nin.jpg"
+ },
+ "dogbo-vie": {
+  "alt": "Entrée du campus des sciences et techniques agricoles de Dogbo",
+  "caption": "Le campus agricole",
+  "place": "Dogbo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/dogbo-vie-640.webp",
+    "bytes": 47462
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/dogbo-vie-1280.webp",
+    "bytes": 216782
+   }
+  ],
+  "tint": "#a19488",
+  "credit": "Ji-Elle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Universit%C3%A9_de_Lokossa-Sciences_et_techniques_agricoles_de_Dogbo.jpg"
+ },
+ "abomey-calavi-ville": {
+  "alt": "Vue sur les axes routiers et les toits d'Abomey-Calavi",
+  "caption": "Abomey-Calavi, ville en croissance",
+  "place": "Abomey-Calavi",
+  "sources": [
+   {
+    "w": 640,
+    "h": 396,
+    "file": "/assets/img/abomey-calavi-ville-640.webp",
+    "bytes": 25650
+   },
+   {
+    "w": 1280,
+    "h": 791,
+    "file": "/assets/img/abomey-calavi-ville-1280.webp",
+    "bytes": 87504
+   },
+   {
+    "w": 1920,
+    "h": 1187,
+    "file": "/assets/img/abomey-calavi-ville-1920.webp",
+    "bytes": 186320
+   }
+  ],
+  "tint": "#84919a",
+  "credit": "Élisée.Adad",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Abomey-Calavi_vue.jpg"
+ },
+ "abomey-calavi-site": {
+  "alt": "Entrée de l'Université d'Abomey-Calavi",
+  "caption": "Le campus universitaire",
+  "place": "Abomey-Calavi",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/abomey-calavi-site-640.webp",
+    "bytes": 37090
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/abomey-calavi-site-1280.webp",
+    "bytes": 146510
+   }
+  ],
+  "tint": "#9f9c94",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:L%27Universit%C3%A9_d%27Abomey-Calavi_%28UAC%29-B%C3%A9nin.jpg"
+ },
+ "abomey-calavi-paysage": {
+  "alt": "Étals et circulation au marché d'Abomey-Calavi",
+  "caption": "Le marché, au quotidien",
+  "place": "Abomey-Calavi",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/abomey-calavi-paysage-640.webp",
+    "bytes": 43008
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/abomey-calavi-paysage-1280.webp",
+    "bytes": 133060
+   }
+  ],
+  "tint": "#8e9189",
+  "credit": "Dominik Schwarz",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Abomey-Calavi_market.jpg"
+ },
+ "abomey-calavi-vie": {
+  "alt": "Jeunes jouant au football sur un terrain de rue à Calavi",
+  "caption": "Le football de rue",
+  "place": "Abomey-Calavi",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/abomey-calavi-vie-640.webp",
+    "bytes": 43320
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/abomey-calavi-vie-1280.webp",
+    "bytes": 190300
+   }
+  ],
+  "tint": "#9c8b88",
+  "credit": "Saliousoft",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Terrain_de_football_de_rue_%C3%A0_calavi.jpg"
+ },
+ "allada-ville": {
+  "alt": "La voie inter-État traversant la dépression d'Allada",
+  "caption": "La traversée d'Allada",
+  "place": "Allada",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/allada-ville-640.webp",
+    "bytes": 37920
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/allada-ville-1280.webp",
+    "bytes": 140772
+   },
+   {
+    "w": 1920,
+    "h": 1280,
+    "file": "/assets/img/allada-ville-1920.webp",
+    "bytes": 294098
+   }
+  ],
+  "tint": "#646963",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:D%C3%A9pression_Allada_voie_inter-%C3%89tat_B%C3%A9nin-Niger_au_B%C3%A9nin_05.jpg"
+ },
+ "allada-site": {
+  "alt": "Portail du palais royal d'Allada",
+  "caption": "Le palais royal",
+  "place": "Allada",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/allada-site-640.webp",
+    "bytes": 30252
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/allada-site-1280.webp",
+    "bytes": 115410
+   }
+  ],
+  "tint": "#d8d5c4",
+  "credit": "Rachad sanoussi",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Portail_du_Palais_royal_d%E2%80%99Allada.jpg"
+ },
+ "allada-paysage": {
+  "alt": "Reliefs et végétation autour de la voie inter-État, à Allada",
+  "caption": "La dépression d'Allada",
+  "place": "Allada",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/allada-paysage-640.webp",
+    "bytes": 29136
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/allada-paysage-1280.webp",
+    "bytes": 99358
+   }
+  ],
+  "tint": "#8b9189",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:D%C3%A9pression_Allada_voie_inter-%C3%89tat_B%C3%A9nin-Niger_au_B%C3%A9nin_03.jpg"
+ },
+ "allada-vie": {
+  "alt": "Statue de divinité vodun au lac sacré d'Awouto, à Allada",
+  "caption": "Le lac sacré d'Awouto",
+  "place": "Allada",
+  "sources": [
+   {
+    "w": 640,
+    "h": 360,
+    "file": "/assets/img/allada-vie-640.webp",
+    "bytes": 34620
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "file": "/assets/img/allada-vie-1280.webp",
+    "bytes": 101136
+   }
+  ],
+  "tint": "#997c61",
+  "credit": "Netho639",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Divinite-vodun-legba-lac-sacre-awouto-allada-benin.jpg"
+ },
+ "bohicon-ville": {
+  "alt": "Carrefour et panneaux à l'entrée de Bohicon",
+  "caption": "À l'entrée de Bohicon",
+  "place": "Bohicon",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/bohicon-ville-640.webp",
+    "bytes": 39944
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/bohicon-ville-1280.webp",
+    "bytes": 158254
+   },
+   {
+    "w": 1920,
+    "h": 1280,
+    "file": "/assets/img/bohicon-ville-1920.webp",
+    "bytes": 357434
+   }
+  ],
+  "tint": "#a2a19a",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Bohicon_voie_inter-%C3%89tat_B%C3%A9nin-Niger_B%C3%A9nin_04.jpg"
+ },
+ "bohicon-site": {
+  "alt": "Le bâtiment de la gare de Bohicon",
+  "caption": "La gare, mémoire du rail",
+  "place": "Bohicon",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/bohicon-site-640.webp",
+    "bytes": 44294
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/bohicon-site-1280.webp",
+    "bytes": 195958
+   }
+  ],
+  "tint": "#9a8176",
+  "credit": "Fawaz.tairou",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Gare_de_Bohicon.jpg"
+ },
+ "bohicon-paysage": {
+  "alt": "La voie inter-État et ses abords à Bohicon",
+  "caption": "Les routes de Bohicon",
+  "place": "Bohicon",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/bohicon-paysage-640.webp",
+    "bytes": 31214
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/bohicon-paysage-1280.webp",
+    "bytes": 112696
+   }
+  ],
+  "tint": "#bbbeba",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Bohicon_voie_inter-%C3%89tat_B%C3%A9nin-Niger_B%C3%A9nin_07.jpg"
+ },
+ "bohicon-vie": {
+  "alt": "Pains et biscuits exposés à la gare routière de Bohicon",
+  "caption": "Les étals de la gare",
+  "place": "Bohicon",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/bohicon-vie-640.webp",
+    "bytes": 42588
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/bohicon-vie-1280.webp",
+    "bytes": 127626
+   }
+  ],
+  "tint": "#baa18e",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Exposition_de_pains_et_de_biscuits_%C3%A0_la_vente_%C3%A0_la_gare_automobile_de_Bohicon-B%C3%A9nin.jpg"
+ },
+ "cove-ville": {
+  "alt": "Palmeraies et végétation aux abords du Zou, à Covè",
+  "caption": "Les palmeraies de Covè",
+  "place": "Covè",
+  "sources": [
+   {
+    "w": 640,
+    "h": 426,
+    "file": "/assets/img/cove-ville-640.webp",
+    "bytes": 67692
+   },
+   {
+    "w": 1280,
+    "h": 851,
+    "file": "/assets/img/cove-ville-1280.webp",
+    "bytes": 306954
+   },
+   {
+    "w": 1920,
+    "h": 1277,
+    "file": "/assets/img/cove-ville-1920.webp",
+    "bytes": 741220
+   }
+  ],
+  "tint": "#6b7967",
+  "credit": "Mhope2010",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Le_fleuve_Zou_et_son_%C3%A9cosyst%C3%A8me_v%C3%A9g%C3%A9tal_dans_la_Commune_de_Cov%C3%A8_au_sud_du_B%C3%A9nin_06.jpg"
+ },
+ "cove-site": {
+  "alt": "Le Zou et ses berges dans la commune de Covè",
+  "caption": "Le fleuve Zou",
+  "place": "Covè",
+  "sources": [
+   {
+    "w": 640,
+    "h": 426,
+    "file": "/assets/img/cove-site-640.webp",
+    "bytes": 44900
+   },
+   {
+    "w": 1280,
+    "h": 851,
+    "file": "/assets/img/cove-site-1280.webp",
+    "bytes": 196846
+   }
+  ],
+  "tint": "#9ea690",
+  "credit": "Mhope2010",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Le_fleuve_Zou_et_son_%C3%A9cosyst%C3%A8me_v%C3%A9g%C3%A9tal_dans_la_Commune_de_Cov%C3%A8_au_sud_du_B%C3%A9nin_7.jpg"
+ },
+ "cove-paysage": {
+  "alt": "Bas-fonds cultivés près du Nankava, à Covè",
+  "caption": "Les bas-fonds du Nankava",
+  "place": "Covè",
+  "sources": [
+   {
+    "w": 640,
+    "h": 426,
+    "file": "/assets/img/cove-paysage-640.webp",
+    "bytes": 27838
+   },
+   {
+    "w": 1280,
+    "h": 851,
+    "file": "/assets/img/cove-paysage-1280.webp",
+    "bytes": 102702
+   }
+  ],
+  "tint": "#bcc6b1",
+  "credit": "Mhope2010",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Le_fleuve_Zou_et_son_affluent_Nankava_dans_la_commune_de_Cov%C3%A8_au_B%C3%A9nin_03.jpg"
+ },
+ "cove-vie": {
+  "alt": "Palmiers et cultures de la plaine à Covè",
+  "caption": "La plaine des palmiers",
+  "place": "Covè",
+  "sources": [
+   {
+    "w": 640,
+    "h": 426,
+    "file": "/assets/img/cove-vie-640.webp",
+    "bytes": 62918
+   },
+   {
+    "w": 1280,
+    "h": 851,
+    "file": "/assets/img/cove-vie-1280.webp",
+    "bytes": 288870
+   }
+  ],
+  "tint": "#6f7c6b",
+  "credit": "Mhope2010",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Le_fleuve_Zou_et_son_%C3%A9cosyst%C3%A8me_v%C3%A9g%C3%A9tal_dans_la_Commune_de_Cov%C3%A8_au_sud_du_B%C3%A9nin_09.jpg"
+ },
+ "lokossa-ville": {
+  "alt": "Entrée de la préfecture de Lokossa",
+  "caption": "Le centre administratif",
+  "place": "Lokossa",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/lokossa-ville-640.webp",
+    "bytes": 61770
+   },
+   {
+    "w": 1280,
+    "h": 854,
+    "file": "/assets/img/lokossa-ville-1280.webp",
+    "bytes": 270974
+   },
+   {
+    "w": 1920,
+    "h": 1281,
+    "file": "/assets/img/lokossa-ville-1920.webp",
+    "bytes": 613084
+   }
+  ],
+  "tint": "#7c6e58",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_pr%C3%A9fecture_de_Lokossa_au_B%C3%A9nin_01.jpg"
+ },
+ "lokossa-site": {
+  "alt": "La cathédrale Saint-Pierre-Claver de Lokossa",
+  "caption": "La cathédrale",
+  "place": "Lokossa",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/lokossa-site-640.webp",
+    "bytes": 35162
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/lokossa-site-1280.webp",
+    "bytes": 121508
+   }
+  ],
+  "tint": "#626465",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Saint-Pierre-Claver%2C_Lokossa%2C_Mono%2C_Benin_05.jpg"
+ },
+ "lokossa-paysage": {
+  "alt": "Étals et circulation dans une rue de Lokossa",
+  "caption": "Scène de rue",
+  "place": "Lokossa",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/lokossa-paysage-640.webp",
+    "bytes": 54750
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/lokossa-paysage-1280.webp",
+    "bytes": 226548
+   }
+  ],
+  "tint": "#7c675b",
+  "credit": "Ji-Elle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Lokossa-Sc%C3%A8ne_de_rue_%283%29.jpg"
+ },
+ "lokossa-vie": {
+  "alt": "Le marché et ses deux-roues au centre de Lokossa",
+  "caption": "Le marché de Lokossa",
+  "place": "Lokossa",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/lokossa-vie-640.webp",
+    "bytes": 49690
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/lokossa-vie-1280.webp",
+    "bytes": 172468
+   }
+  ],
+  "tint": "#7b7472",
+  "credit": "Ji-Elle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Lokossa-Sc%C3%A8ne_de_rue_%281%29.jpg"
+ },
+ "grand-popo-ville": {
+  "alt": "La plage de Grand-Popo, entre océan et lagune",
+  "caption": "La plage",
+  "place": "Grand-Popo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/grand-popo-ville-640.webp",
+    "bytes": 44742
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/grand-popo-ville-1280.webp",
+    "bytes": 204436
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/grand-popo-ville-1920.webp",
+    "bytes": 480790
+   }
+  ],
+  "tint": "#657c95",
+  "credit": "Fawaz.tairou",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Plage_%C3%A0_Grand-Popo_au_B%C3%A9nin.jpg"
+ },
+ "grand-popo-site": {
+  "alt": "La passerelle de bois de Grand-Popo",
+  "caption": "La passerelle vers la lagune",
+  "place": "Grand-Popo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/grand-popo-site-640.webp",
+    "bytes": 78064
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/grand-popo-site-1280.webp",
+    "bytes": 264104
+   }
+  ],
+  "tint": "#ac6544",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Un_vieux_pont_%C3%A0_Grand-Popo_au_B%C3%A9nin.jpg"
+ },
+ "grand-popo-paysage": {
+  "alt": "Pirogue échouée sur la plage de Grand-Popo",
+  "caption": "Pirogue et océan",
+  "place": "Grand-Popo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/grand-popo-paysage-640.webp",
+    "bytes": 41762
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/grand-popo-paysage-1280.webp",
+    "bytes": 222656
+   }
+  ],
+  "tint": "#99938c",
+  "credit": "Ji-Elle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Plage_de_Grand-Popo_%285%29.jpg"
+ },
+ "grand-popo-vie": {
+  "alt": "Abri de plage et sacs de pêcheurs à Grand-Popo",
+  "caption": "La vie de plage",
+  "place": "Grand-Popo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/grand-popo-vie-640.webp",
+    "bytes": 33116
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/grand-popo-vie-1280.webp",
+    "bytes": 167318
+   }
+  ],
+  "tint": "#aeaaa4",
+  "credit": "Ji-Elle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Plage_de_Grand-Popo_%282%29.jpg"
+ },
+ "aplahoue-ville": {
+  "alt": "La mairie d'Aplahoué",
+  "caption": "La mairie",
+  "place": "Aplahoué",
+  "sources": [
+   {
+    "w": 640,
+    "h": 320,
+    "file": "/assets/img/aplahoue-ville-640.webp",
+    "bytes": 24406
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "file": "/assets/img/aplahoue-ville-1280.webp",
+    "bytes": 99052
+   },
+   {
+    "w": 1920,
+    "h": 960,
+    "file": "/assets/img/aplahoue-ville-1920.webp",
+    "bytes": 235428
+   }
+  ],
+  "tint": "#6c6259",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mairie_Aplahou%C3%A9_vue_de_face.jpg"
+ },
+ "aplahoue-site": {
+  "alt": "La préfecture du Couffo à Aplahoué",
+  "caption": "La préfecture",
+  "place": "Aplahoué",
+  "sources": [
+   {
+    "w": 640,
+    "h": 322,
+    "file": "/assets/img/aplahoue-site-640.webp",
+    "bytes": 36828
+   },
+   {
+    "w": 1280,
+    "h": 643,
+    "file": "/assets/img/aplahoue-site-1280.webp",
+    "bytes": 153984
+   }
+  ],
+  "tint": "#7a6c53",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vue_de_face_Pr%C3%A9fecture_de_Aplahou%C3%A9.jpg"
+ },
+ "aplahoue-paysage": {
+  "alt": "La place publique et le monument aux morts à Aplahoué",
+  "caption": "La place publique",
+  "place": "Aplahoué",
+  "sources": [
+   {
+    "w": 640,
+    "h": 320,
+    "file": "/assets/img/aplahoue-paysage-640.webp",
+    "bytes": 64948
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "file": "/assets/img/aplahoue-paysage-1280.webp",
+    "bytes": 275720
+   }
+  ],
+  "tint": "#837863",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Place_publique_monuments_aux_morts_%C3%A0_Aplahou%C3%A9_%28B%C3%A9nin%291.jpg"
+ },
+ "aplahoue-vie": {
+  "alt": "L'hôpital de zone d'Aplahoué",
+  "caption": "Le service de santé",
+  "place": "Aplahoué",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/aplahoue-vie-640.webp",
+    "bytes": 42670
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/aplahoue-vie-1280.webp",
+    "bytes": 179976
+   }
+  ],
+  "tint": "#8f847b",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4pital_de_zone_Aplahou%C3%A9_au_B%C3%A9nin.jpg"
+ },
+ "djougou-ville": {
+  "alt": "Une rue de Djougou",
+  "caption": "Scène de rue à Djougou",
+  "place": "Djougou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/djougou-ville-640.webp",
+    "bytes": 29946
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/djougou-ville-1280.webp",
+    "bytes": 125894
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/djougou-ville-1920.webp",
+    "bytes": 274028
+   }
+  ],
+  "tint": "#7e7266",
+  "credit": "Gregor Rom",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Stra%C3%9Fenbild_djougou.JPG"
+ },
+ "djougou-site": {
+  "alt": "Le marché de Partago, dans la commune de Djougou",
+  "caption": "Le marché de Partago",
+  "place": "Djougou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/djougou-site-640.webp",
+    "bytes": 48710
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/djougou-site-1280.webp",
+    "bytes": 155162
+   }
+  ],
+  "tint": "#a1a29e",
+  "credit": "Aimeabibis",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:March%C3%A9_de_Partago_au_b%C3%A9nin.jpg"
+ },
+ "djougou-vie": {
+  "alt": "Poterie exposée au marché de Djougou",
+  "caption": "Poterie du marché",
+  "place": "Djougou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/djougou-vie-640.webp",
+    "bytes": 36620
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/djougou-vie-1280.webp",
+    "bytes": 130652
+   }
+  ],
+  "tint": "#a79898",
+  "credit": "Abdsamad28",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:March%C3%A9_de_Djougou_01.jpg"
+ },
+ "banikoara-site": {
+  "alt": "La route menant à Banikoara",
+  "caption": "La route de Banikoara",
+  "place": "Banikoara",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/banikoara-site-640.webp",
+    "bytes": 35646
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/banikoara-site-1280.webp",
+    "bytes": 171254
+   }
+  ],
+  "tint": "#8e8784",
+  "credit": "Koubourat",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Route_menant_%C3%A0_Banikoara.jpg"
+ },
+ "banikoara-paysage": {
+  "alt": "Savane et champs aux abords de Banikoara",
+  "caption": "La savane cotonnière",
+  "place": "Banikoara",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/banikoara-paysage-640.webp",
+    "bytes": 26740
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/banikoara-paysage-1280.webp",
+    "bytes": 137380
+   }
+  ],
+  "tint": "#999087",
+  "credit": "Koubourat",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Paysage_de_Sinawongourou_vers_Banikoara.jpg"
+ },
+ "banikoara-vie": {
+  "alt": "Riziculture dans la plaine de Banikoara",
+  "caption": "Les rizières",
+  "place": "Banikoara",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/banikoara-vie-640.webp",
+    "bytes": 90670
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/banikoara-vie-1280.webp",
+    "bytes": 407362
+   }
+  ],
+  "tint": "#86816f",
+  "credit": "Africa Rice Center",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Rice_cultivation_in_Benin_-_panoramio_-_Africa_Rice_Center_%2812%29.jpg"
+ },
+ "tchaourou-site": {
+  "alt": "Le pont de Bétérou sur l'Ouémé",
+  "caption": "Le pont de Bétérou",
+  "place": "Tchaourou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/tchaourou-site-640.webp",
+    "bytes": 78292
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/tchaourou-site-1280.webp",
+    "bytes": 350990
+   }
+  ],
+  "tint": "#858570",
+  "credit": "Florentin66",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pont_de_Beterou_dans_le_nord_B%C3%A9nin.jpg"
+ },
+ "tchaourou-vie": {
+  "alt": "Scène de marché à Tchaourou",
+  "caption": "Le marché de Tchaourou",
+  "place": "Tchaourou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/tchaourou-vie-640.webp",
+    "bytes": 25990
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/tchaourou-vie-1280.webp",
+    "bytes": 98084
+   }
+  ],
+  "tint": "#a7aaaa",
+  "credit": "Saliousoft",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sc%C3%A8ne_de_march%C3%A9%2C_commune_de_Tchaourou_01.jpg"
+ },
+ "bembereke-site": {
+  "alt": "Le foyer catholique de Bembéréké",
+  "caption": "Le foyer catholique",
+  "place": "Bembéréké",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/bembereke-site-640.webp",
+    "bytes": 46808
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/bembereke-site-1280.webp",
+    "bytes": 207260
+   }
+  ],
+  "tint": "#969279",
+  "credit": "ChamsyGAO",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Foyer_catholique.jpg"
+ },
+ "bembereke-vie": {
+  "alt": "École primaire publique de Bembéréké",
+  "caption": "L'école du village",
+  "place": "Bembéréké",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/bembereke-vie-640.webp",
+    "bytes": 72110
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/bembereke-vie-1280.webp",
+    "bytes": 309760
+   }
+  ],
+  "tint": "#a5946a",
+  "credit": "ChamsyGAO",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ecole_primaire_publique_Bemb%C3%A9r%C3%A9k%C3%A9.jpg"
+ },
+ "dassa-ville": {
+  "alt": "Vue de Dassa-Zoumè depuis la colline des Princes",
+  "caption": "Dassa vue des collines",
+  "place": "Dassa-Zoumè",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/dassa-ville-640.webp",
+    "bytes": 49710
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/dassa-ville-1280.webp",
+    "bytes": 211912
+   },
+   {
+    "w": 1920,
+    "h": 1280,
+    "file": "/assets/img/dassa-ville-1920.webp",
+    "bytes": 502670
+   }
+  ],
+  "tint": "#7d755a",
+  "credit": "Ch1pabeck",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Viewpoint_of_Dassa-Zoum%C3%A9_from_the_Coline_des_Princes_%28April_2025%29.jpg"
+ },
+ "dassa-site": {
+  "alt": "La grotte Notre-Dame d'Arigbo",
+  "caption": "La grotte d'Arigbo",
+  "place": "Dassa-Zoumè",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/dassa-site-640.webp",
+    "bytes": 76624
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/dassa-site-1280.webp",
+    "bytes": 285704
+   }
+  ],
+  "tint": "#787b71",
+  "credit": "Carmelahg",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Grotte_Notre-Dame_d%E2%80%99arigbo_de_Dassa-zoume_au_B%C3%A9nin_01.jpg"
+ },
+ "dassa-paysage": {
+  "alt": "Les collines de Dassa-Zoumè",
+  "caption": "Les collines",
+  "place": "Dassa-Zoumè",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/dassa-paysage-640.webp",
+    "bytes": 89840
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/dassa-paysage-1280.webp",
+    "bytes": 388320
+   }
+  ],
+  "tint": "#788a67",
+  "credit": "Rachad sanoussi",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Collines_de_Dassa.jpg"
+ },
+ "dassa-vie": {
+  "alt": "Cérémonie au calvaire de Dassa-Zoumè",
+  "caption": "Au calvaire",
+  "place": "Dassa-Zoumè",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/dassa-vie-640.webp",
+    "bytes": 45906
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/dassa-vie-1280.webp",
+    "bytes": 201182
+   }
+  ],
+  "tint": "#82827a",
+  "credit": "Ji-Elle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:C%C3%A9r%C3%A9monie_au_calvaire_de_Dassa-Zoum%C3%A9_%282%29.jpg"
+ },
+ "savalou-ville": {
+  "alt": "Monument à Savalou",
+  "caption": "Le monument, au centre-ville",
+  "place": "Savalou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/savalou-ville-640.webp",
+    "bytes": 26944
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/savalou-ville-1280.webp",
+    "bytes": 103746
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/savalou-ville-1920.webp",
+    "bytes": 241872
+   }
+  ],
+  "tint": "#a7968c",
+  "credit": "MahugnonCam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Monument_%C3%A0_Savalou.jpg"
+ },
+ "savalou-site": {
+  "alt": "Site vodun de Dancoli, à Savalou",
+  "caption": "Le site de Dancoli",
+  "place": "Savalou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/savalou-site-640.webp",
+    "bytes": 88272
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/savalou-site-1280.webp",
+    "bytes": 326032
+   }
+  ],
+  "tint": "#5c4933",
+  "credit": "Ch1pabeck",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:A_Vod%C3%BAn_%28Voodoo%29_site_called_Dancoli_%28Dankoli%29_in_city_of_Savalou%2C_Benin_%282025%29.jpg"
+ },
+ "ketou-ville": {
+  "alt": "Le musée Akaba Idena, ancien palais de Kétou",
+  "caption": "Le palais et son musée",
+  "place": "Kétou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/ketou-ville-640.webp",
+    "bytes": 24128
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/ketou-ville-1280.webp",
+    "bytes": 123406
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/ketou-ville-1920.webp",
+    "bytes": 321470
+   }
+  ],
+  "tint": "#434642",
+  "credit": "Rachad sanoussi",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Le_mus%C3%A9e_Akaba_idena_de_K%C3%A9tou.jpg"
+ },
+ "ketou-site": {
+  "alt": "La cour du palais royal au musée Akaba Idena",
+  "caption": "La cour du palais",
+  "place": "Kétou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/ketou-site-640.webp",
+    "bytes": 49414
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/ketou-site-1280.webp",
+    "bytes": 231664
+   }
+  ],
+  "tint": "#90847e",
+  "credit": "Rachad sanoussi",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Cour_du_palais_royal_au_mus%C3%A9e_Akaba_idena.jpg"
+ },
+ "ketou-vie": {
+  "alt": "Sculpteurs sur bois à Kétou",
+  "caption": "Les sculpteurs de Kétou",
+  "place": "Kétou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/ketou-vie-640.webp",
+    "bytes": 81832
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/ketou-vie-1280.webp",
+    "bytes": 323624
+   }
+  ],
+  "tint": "#735b4a",
+  "credit": "MathieuC26",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Sculpteurs_sur_bois.jpg"
+ },
+ "sakete-paysage": {
+  "alt": "Vue du plateau d'Agony, photographie d'archives",
+  "caption": "Le plateau d'Agony (archive)",
+  "place": "Sakété",
+  "sources": [
+   {
+    "w": 640,
+    "h": 488,
+    "file": "/assets/img/sakete-paysage-640.webp",
+    "bytes": 75320
+   },
+   {
+    "w": 1280,
+    "h": 977,
+    "file": "/assets/img/sakete-paysage-1280.webp",
+    "bytes": 232608
+   }
+  ],
+  "tint": "#a5a5a5",
+  "credit": "Albéca, Alexandre L. d' (1858-1896). Molteni. Photographe",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Dahomey._12_%28Le_Haut-Ou%C3%A9m%C3%A9%2C_vue_prise_du_plateau_d%27Agony%29_-_%28mission%29_d%27Alb%C3%A9ca_%3B_%28photogr._reprod._par%29_Molteni_%28pour_la_conf%C3%A9rence_donn%C3%A9e_par%29_d%27Alb%C3%A9ca_-_btv1b53231321f.jpg"
+ },
+ "sakete-vie": {
+  "alt": "Une rue de Sakété, photographie d'archives",
+  "caption": "Une rue de Sakété (archive)",
+  "place": "Sakété",
+  "sources": [
+   {
+    "w": 640,
+    "h": 474,
+    "file": "/assets/img/sakete-vie-640.webp",
+    "bytes": 41118
+   },
+   {
+    "w": 1280,
+    "h": 949,
+    "file": "/assets/img/sakete-vie-1280.webp",
+    "bytes": 252186
+   }
+  ],
+  "tint": "#959084",
+  "credit": "Gadmer Frédéric",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Une_rue_%C3%A0_Sak%C3%A9t%C3%A9_-_A71097X.jpg"
+ },
+ "adjohoun-ville": {
+  "alt": "Mototaxi dans la commune d'Adjohoun",
+  "caption": "Le mototaxi, au quotidien",
+  "place": "Adjohoun",
+  "sources": [
+   {
+    "w": 640,
+    "h": 582,
+    "file": "/assets/img/adjohoun-ville-640.webp",
+    "bytes": 60258
+   },
+   {
+    "w": 1280,
+    "h": 1164,
+    "file": "/assets/img/adjohoun-ville-1280.webp",
+    "bytes": 166838
+   },
+   {
+    "w": 1920,
+    "h": 1746,
+    "file": "/assets/img/adjohoun-ville-1920.webp",
+    "bytes": 372366
+   }
+  ],
+  "tint": "#9e9778",
+  "credit": "GBETONGNINOUGBO JOSEPH HERVE AHISSOU",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mototaxi_K%C3%A9toukp%C3%A8.jpg"
+ },
+ "adjohoun-site": {
+  "alt": "Le fleuve Ouémé et sa plaine inondable",
+  "caption": "L'Ouémé et sa plaine",
+  "place": "Adjohoun",
+  "sources": [
+   {
+    "w": 640,
+    "h": 337,
+    "file": "/assets/img/adjohoun-site-640.webp",
+    "bytes": 54982
+   },
+   {
+    "w": 1280,
+    "h": 673,
+    "file": "/assets/img/adjohoun-site-1280.webp",
+    "bytes": 244692
+   }
+  ],
+  "tint": "#4d7072",
+  "credit": "Auresolla",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fleuve_Ou%C3%A9m%C3%A9_%28Dangbo%29.jpg"
+ },
+ "adjohoun-paysage": {
+  "alt": "Oiseaux de la plaine inondée de l'Ouémé",
+  "caption": "La plaine et ses oiseaux",
+  "place": "Adjohoun",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/adjohoun-paysage-640.webp",
+    "bytes": 53742
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/adjohoun-paysage-1280.webp",
+    "bytes": 175880
+   }
+  ],
+  "tint": "#84866b",
+  "credit": "Phiphi34",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Chevalier_Sylvain_2023-1.jpg"
+ },
+ "adjohoun-vie": {
+  "alt": "Cases rondes de la plaine de l'Ouémé, image d'archives",
+  "caption": "Habitat de la plaine",
+  "place": "Adjohoun",
+  "sources": [
+   {
+    "w": 640,
+    "h": 475,
+    "file": "/assets/img/adjohoun-vie-640.webp",
+    "bytes": 70636
+   },
+   {
+    "w": 1280,
+    "h": 949,
+    "file": "/assets/img/adjohoun-vie-1280.webp",
+    "bytes": 308556
+   }
+  ],
+  "tint": "#7b784e",
+  "credit": "Gadmer Frédéric",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Exemples_de_cases_rondes_vers_la_plaine_de_l%27Ou%C3%A9m%C3%A9_-_A63379S.jpg"
+ },
+ "kandi-ville": {
+  "alt": "Bureau de l'arrondissement de Kandi 1, devant la route",
+  "caption": "Le bureau d'arrondissement de Kandi 1",
+  "place": "Kandi",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/kandi-ville-640.webp",
+    "bytes": 37358
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/kandi-ville-1280.webp",
+    "bytes": 159246
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/kandi-ville-1920.webp",
+    "bytes": 311432
+   }
+  ],
+  "tint": "#99887f",
+  "credit": "DoussFrance",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Bureau_d%27arrondissent_de_Kandi_1_%28Face%29.jpg"
+ },
+ "kandi-site": {
+  "alt": "Auberge et centre de formation UD-CVPC-Alibori, à Kandi",
+  "caption": "Le centre de formation UD-CVPC",
+  "place": "Kandi",
+  "sources": [
+   {
+    "w": 640,
+    "h": 640,
+    "file": "/assets/img/kandi-site-640.webp",
+    "bytes": 65236
+   },
+   {
+    "w": 1280,
+    "h": 1280,
+    "file": "/assets/img/kandi-site-1280.webp",
+    "bytes": 236200
+   }
+  ],
+  "tint": "#b6a69b",
+  "credit": "Chiemelacebelae",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Auberge_UD-CVPC-Alibori_%C3%A0_Kandi.jpg"
+ },
+ "kandi-paysage": {
+  "alt": "Concessions, arbres et savane aux portes de Kandi",
+  "caption": "La savane et les concessions",
+  "place": "Kandi",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/kandi-paysage-640.webp",
+    "bytes": 37540
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/kandi-paysage-1280.webp",
+    "bytes": 98712
+   }
+  ],
+  "tint": "#a09998",
+  "credit": "DoussFrance",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Paysage_dans_l%27arrondissent_de_Kandi_1_%28VE%29.jpg"
+ },
+ "kandi-vie": {
+  "alt": "Portail de l'école maternelle publique de Kandi 1",
+  "caption": "L'école maternelle de Kandi 1",
+  "place": "Kandi",
+  "sources": [
+   {
+    "w": 640,
+    "h": 360,
+    "file": "/assets/img/kandi-vie-640.webp",
+    "bytes": 18362
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "file": "/assets/img/kandi-vie-1280.webp",
+    "bytes": 64102
+   }
+  ],
+  "tint": "#796f6b",
+  "credit": "Chiemelacebelae",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Portail_1_%C3%A9cole_maternelle_de_l%27arrondissement_de_Kandi_1.jpg"
  }
 }

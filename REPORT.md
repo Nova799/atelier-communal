@@ -1,8 +1,8 @@
 # Rapport de clôture — Atelier communal
 
-> Note de mise à jour — deux directions WebGL ont été ajoutées après la livraison initiale : la **21 « Reflets »** (scène 2D/WebGL, 16 novembre 2026) puis la **22 « Relief »** (diorama 3D réel, 16 novembre 2026). Les faits des trois livraisons sont consignés en bas de ce document ; l'état courant fait foi dans le README (`npm run verify`, 176 pages, 22 directions).
+> Note de mise à jour — deux directions WebGL ont été ajoutées après la livraison initiale : la **21 « Reflets »** (scène 2D/WebGL, 16 novembre 2026) puis la **22 « Relief »** (diorama 3D réel, 16 novembre 2026). Les faits des trois livraisons sont consignés en bas de ce document ; l'état courant fait foi dans le README (`npm run verify`, 616 pages, 28 communes, 22 directions).
 
-Projet : **20 directions de sites communaux pour le Bénin** · généré statiquement · zéro dépendance d'exécution.
+Projet : **22 directions de sites communaux pour 28 communes du Bénin** · généré statiquement · zéro dépendance d'exécution.
 Livré le 16 novembre 2026. Statut : **fonctionnel, vérifié, prêt à être montré**.
 
 ---
@@ -10,8 +10,8 @@ Livré le 16 novembre 2026. Statut : **fonctionnel, vérifié, prêt à être mo
 ## 1. Sommaire
 
 - **20 directions artistiques originales** (pas des déclinaisons de couleurs), chacune avec grille, typographie, paire de polices, ordre de sections, traitement du header et signature d'interaction propres.
-- **8 communes de démonstration** — Cotonou, Porto-Novo, Ouidah, Abomey, Parakou, Natitingou, Nikki, Sô-Ava — servies par **une seule couche de données** : toute la maquette se recompose par changement de données.
-- **160 pages** (`20 directions × 8 communes`) + galerie (`/`), page système (`/system.html`) et 404.
+- **28 communes de démonstration** — Cotonou, Porto-Novo, Ouidah, Abomey, Parakou, Natitingou, Nikki, Sô-Ava et vingt communes supplémentaires réparties dans les douze départements — servies par **une seule couche de données** : toute la maquette se recompose par changement de données.
+- **616 pages** (`22 directions × 28 communes`) + galerie (`/`), page système (`/system.html`) et 404.
 - **Build reproductible** (≈ 0,3 s), **zéro dépendance**, **zéro requête tierce** au runtime.
 - **Tests automatisés** : audit statique de 163 pages (`scripts/check.mjs`) et passe Playwright sur **810 chargements** (163 pages × 5 viewports) — **0 échec** (`scripts/screenshot.mjs`).
 

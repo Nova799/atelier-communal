@@ -1,15 +1,15 @@
 # Atelier communal — vingt-deux directions pour les sites des communes du Bénin
 
-Vingt et une propositions de sites institutionnels pour les communes du Bénin, construites sur une seule couche de données, un socle d'accessibilité commun et 22 directions réellement distinctes. Démonstration statique, sans dépendance runtime, entièrement exécutable en local.
+Vingt-deux propositions de sites institutionnels pour 28 communes du Bénin, construites sur une seule couche de données, un socle d'accessibilité commun et 22 directions réellement distinctes. Démonstration statique, sans dépendance runtime, entièrement exécutable en local.
 
-> **Démonstration.** Les 176 pages générées utilisent du contenu fictif rédigé pour le projet. Aucune donnée officielle n'est présentée comme telle : chaque page porte la mention « Démonstration · Contenus fictifs », chaque chiffre est annoté et les huit communes sont des *profils de démonstration*. Les photographies proviennent de Wikimedia Commons (licences CC ou domaine public), avec auteur et licence affichés, localement téléchargées et creditées dans `assets/img/library.json`.
+> **Démonstration.** Les 616 pages générées utilisent du contenu fictif rédigé pour le projet. Aucune donnée officielle n'est présentée comme telle : chaque page porte la mention « Démonstration · Contenus fictifs », chaque chiffre est annoté et les vingt-huit communes sont des *profils de démonstration*. Les photographies proviennent de Wikimedia Commons (licences CC ou domaine public), avec auteur et licence affichés, localement téléchargées et creditées dans `assets/img/library.json`.
 
 ## Démarrage rapide
 
 Prérequis : **Node.js ≥ 20**. Aucune dépendance à installer (`node_modules` n'existe pas).
 
 ```bash
-npm run build     # génère dist/ (176 pages + galerie + système + 404)
+npm run build     # génère dist/ (616 pages + galerie + système + 404)
 npm run serve     # sert dist/ sur http://127.0.0.1:4173
 npm run dev       # build + serve
 npm run check     # audit statique : liens, assets, alt, h1, ids uniques
@@ -25,12 +25,12 @@ Le `dist/` généré est statique : il peut être publié tel quel sur n'importe
 | Élément | Détail |
 | --- | --- |
 | Directions artistiques | 22 (voir le tableau ci-dessous) |
-| Communes de démonstration | Cotonou, Porto-Novo, Ouidah, Abomey, Parakou, Natitingou, Nikki, Sô-Ava |
-| Pages générées | 176 pages `/t/<direction>/<commune>/` + galerie `/` + `/system.html` + 404 |
+| Communes de démonstration | Cotonou, Porto-Novo, Ouidah, Abomey, Parakou, Natitingou, Nikki, Sô-Ava, Abomey-Calavi, Allada, Bohicon, Covè, Lokossa, Grand-Popo, Dogbo, Aplahoué, Djougou, Kandi, Banikoara, Malanville, Tchaourou, Bembéréké, Dassa-Zoumè, Savalou, Kétou, Sakété, Boukoumbé, Adjohoun |
+| Pages générées | 616 pages `/t/<direction>/<commune>/` + galerie `/` + `/system.html` + 404 |
 | Templates par page | ~92 Ko HTML, zéro framework, zéro requête tierce au runtime |
 | Accessibilité | landmarks, focus visible, navigation clavier, attributs ARIA, `prefers-reduced-motion` |
 | SEO | titles, meta descriptions, Open Graph, JSON-LD, sitemap, robots.txt (pages `noindex` : contenus fictifs) |
-| Images | 66 photographies Wikimedia Commons, locales, WebP responsive (640/1280/1920 px) |
+| Images | 146 photographies Wikimedia Commons, locales, WebP responsive (640/1280/1920 px) |
 | Polices | 11 familles auto-hébergées (WOFF2 latin / latin-ext) |
 
 ## Les vingt-deux directions
@@ -88,14 +88,14 @@ benin-commune/
 
 ## Fonctionnement multi-commune
 
-Changer de commune **ne réécrit pas le code** : chaque commune fournit un fichier de données (identité visuelle, histoire, économie, services, actualités, budget, FAQ, lieux, carte…) dans `src/data/communes/`. Les vingt-deux directions consomment la même structure. Le lien « Une direction, huit communes » en bas de chaque page régénère instantanément la démonstration.
+Changer de commune **ne réécrit pas le code** : chaque commune fournit un fichier de données (identité visuelle, histoire, économie, services, actualités, budget, FAQ, lieux, carte…) dans `src/data/communes/`. Les vingt-deux directions consomment la même structure. Le lien « Une direction, 28 communes » en bas de chaque page régénère instantanément la démonstration.
 
 ```bash
 # Voir la même direction pour une autre commune
 npm run build   # puis ouvrir http://127.0.0.1:4173/t/signal/nikki/
 ```
 
-Pour ajouter une neuvième commune : `CREER-UN-SITE-COMMUNAL.md`.
+Pour ajouter une vingt-neuvième commune : `CREER-UN-SITE-COMMUNAL.md`.
 
 ## Documentation
 

@@ -1,7 +1,7 @@
 import { esc, cls, image, emblem, tag, progress, truncate, creditLine } from "./html.mjs";
 import { icon } from "./icons.mjs";
 import { mapBlock } from "./map.mjs";
-import { getServices } from "../data/index.mjs";
+import { communes as allCommunes, getServices } from "../data/index.mjs";
 
 const slugify = (s) =>
   String(s)
@@ -42,7 +42,7 @@ export function mobileNav(commune, items, { template, contactHref = "#contact" }
       <div class="navsheet__foot">
         <p><strong>${esc(commune.name)}</strong><br>${esc(commune.department)} · ${esc(commune.region)}</p>
         <a class="btn btn--solid" href="${esc(contactHref)}">Nous contacter ${icon("arrow-right", { size: 18 })}</a>
-        <p class="navsheet__note">Site de démonstration. Découvrez les 22 directions et les 8 communes dans la galerie.</p>
+        <p class="navsheet__note">Site de démonstration. Découvrez les 22 directions et les ${allCommunes.length} communes dans la galerie.</p>
         <a class="navsheet__gallery" href="/">Galerie des 22 directions ${icon("arrow-up-right", { size: 16 })}</a>
       </div>
     </div>
@@ -95,7 +95,7 @@ export function demoDialog(commune, template, templates, communes) {
       </div>
       <div class="demo-dialog__cols">
         <section aria-labelledby="demo-communes-title">
-          <h3 id="demo-communes-title">Les 8 communes</h3>
+          <h3 id="demo-communes-title">Les ${communes.length} communes</h3>
           <div class="demo-dialog__list">${communesHtml}</div>
         </section>
         <section aria-labelledby="demo-templates-title">
@@ -653,7 +653,7 @@ export function gastronomySection(commune, { id = "gastronomie", eyebrow = "À t
 
 export function communeRail(commune, templateSlug, communes) {
   return `<nav class="commune-rail" aria-label="Voir la même direction pour une autre commune">
-    <span class="commune-rail__label">${icon("grid", { size: 14 })} Une direction, huit communes</span>
+    <span class="commune-rail__label">${icon("grid", { size: 14 })} Une direction, ${communes.length} communes</span>
     <div class="commune-rail__list">
       ${communes
         .map(

@@ -327,7 +327,7 @@ export default {
           <a class="gal-brand gal-brand--foot" href="/">${mark()}<span><strong>Atelier communal</strong><span>Design system · démonstration</span></span></a>
           <p class="gal-foot__note">${esc(site.disclaimer)}</p>
         </div>
-        <nav aria-label="Galerie"><h2>Explorer</h2><a href="/">Les 22 directions</a><a href="/#communes">Les 8 communes</a><a href="/system.html#composants">Composants</a></nav>
+        <nav aria-label="Galerie"><h2>Explorer</h2><a href="/">Les 22 directions</a><a href="/#communes">Les ${communes.length} communes</a><a href="/system.html#composants">Composants</a></nav>
         <nav aria-label="Méthode"><h2>Méthode</h2><a href="#architecture">Architecture</a><a href="#accessibilite">Accessibilité</a><a href="#creer">Créer un site</a></nav>
         <div><h2>Statut</h2><p>Maquette de démonstration. Ne pas présenter comme un site officiel de commune.</p><p class="gal-foot__meta">${templates.length} directions · ${communes.length} communes</p></div>
       </div>

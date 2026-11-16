@@ -76,7 +76,7 @@ Les directions réinjectent en plus leurs propres neutres (ex. Signal : `--bg:#f
 | Menu mobile | `.navtoggle` + `<dialog class="navsheet">` | liste complète + contact direct ; focus géré nativement. |
 | Annotations | `.eyebrow`, `.eyebrow__mark`, `.demonote`, `.sec-head`, `.sec-head__lead` | repères systématiques : chaque section annonce son rôle (« Guichet · démarches »). |
 | Boutons | `.btn`, `.btn--solid`, `.btn--ghost` | variations par direction. |
-| Sélecteur « Une direction, huit communes » | `.commune-rail` | régénère la démo dans la même direction. |
+| Sélecteur « Une direction, 28 communes » | `.commune-rail` | régénère la démo dans la même direction. |
 | Pied de page | `.footer` | mentions, contacts, avertissement démo, retour haut de page. |
 | Dialog de signalement | `.report` (`<dialog>`) | formulaire de démonstration (aucun envoi). |
 

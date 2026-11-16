@@ -1,7 +1,7 @@
 /**
  * Passe visuelle automatisée (Playwright/Chromium).
  *
- *   node scripts/screenshot.mjs            — contrôle fonctionnel sur les 176 pages (×5 viewports)
+ *   node scripts/screenshot.mjs            — contrôle fonctionnel sur les 616 pages (×5 viewports)
  *   node scripts/screenshot.mjs --shots    — idem + capture PNG de chaque direction au viewport desktop
  *
  * Pour chaque page et chaque viewport cible :
@@ -16,6 +16,7 @@
 import { createRequire } from "node:module";
 import { execFileSync } from "node:child_process";
 import { templateMeta } from "../src/templates/meta.mjs";
+import { communes as communeData } from "../src/data/index.mjs";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join, dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -44,7 +45,7 @@ const VIEWPORTS = [
   { name: "large", width: 1920, height: 1080 },
 ];
 
-const COMMUNES = ["cotonou", "porto-novo", "ouidah", "abomey", "parakou", "natitingou", "nikki", "so-ava"];
+const COMMUNES = communeData.map((c) => c.slug);
 const PAGES = ["/", "/system.html", ...templateMeta.flatMap((t) => COMMUNES.map((c) => `/t/${t.slug}/${c}/`))];
 
 if (wantShots) mkdirSync(join(root, "assets/previews/full"), { recursive: true });
@@ -52,8 +53,8 @@ if (wantShots) mkdirSync(join(root, "assets/previews/full"), { recursive: true }
 const failures = [];
 let checked = 0;
 
-const browser = await chromium.launch({ headless: true });
-const concurrency = 8;
+const browser = await chromium.launch({ headless: true, args: ["--disable-dev-shm-usage"] });
+const concurrency = Number(process.env.SHOOT_CONCURRENCY || 4);
 let index = 0;
 
 async function worker() {
@@ -91,6 +92,7 @@ async function worker() {
       for (const bad of badResponses) problems.push(`HTTP ${bad}`);
       if (problems.length) failures.push({ page: pagePath, viewport: viewport.name, problems });
       checked++;
+      if (checked % 250 === 0) console.log(`  ${checked}/${PAGES.length * VIEWPORTS.length} chargements vérifiés…`);
       if (wantShots && viewport.name === "desktop" && pagePath.startsWith("/t/")) {
         const slug = pagePath.split("/")[2];
         const commune = pagePath.split("/")[3];

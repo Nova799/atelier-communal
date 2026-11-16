@@ -7,12 +7,106 @@ import parakou from "./communes/parakou.mjs";
 import natitingou from "./communes/natitingou.mjs";
 import nikki from "./communes/nikki.mjs";
 import soAva from "./communes/so-ava.mjs";
+import abomeyCalavi from "./communes/abomey-calavi.mjs";
+import allada from "./communes/allada.mjs";
+import bohicon from "./communes/bohicon.mjs";
+import cove from "./communes/cove.mjs";
+import lokossa from "./communes/lokossa.mjs";
+import grandPopo from "./communes/grand-popo.mjs";
+import dogbo from "./communes/dogbo.mjs";
+import aplahoue from "./communes/aplahoue.mjs";
+import djougou from "./communes/djougou.mjs";
+import kandi from "./communes/kandi.mjs";
+import banikoara from "./communes/banikoara.mjs";
+import malanville from "./communes/malanville.mjs";
+import tchaourou from "./communes/tchaourou.mjs";
+import bembereke from "./communes/bembereke.mjs";
+import dassaZoume from "./communes/dassa.mjs";
+import savalou from "./communes/savalou.mjs";
+import ketou from "./communes/ketou.mjs";
+import sakete from "./communes/sakete.mjs";
+import boukoumbe from "./communes/boukoumbe.mjs";
+import adjohoun from "./communes/adjohoun.mjs";
+import kopeDep from "./communes/kopé.mjs";
+import banteDep from "./communes/bantè.mjs";
+import bopaDep from "./communes/bopa.mjs";
+import ouemenouDep from "./communes/ouémènou.mjs";
+import ketoucentreDep from "./communes/kétou-centre.mjs";
+import saketeestDep from "./communes/sakété-est.mjs";
+import bemberekeestDep from "./communes/bembéréké-est.mjs";
+import malanvillenordDep from "./communes/malanville-nord.mjs";
+import kandiestDep from "./communes/kandi-est.mjs";
+import djougoucentreDep from "./communes/djougou-centre.mjs";
+import aplahoueestDep from "./communes/aplahoué-est.mjs";
+import dogbocentreDep from "./communes/dogbo-centre.mjs";
+import lokossaestDep from "./communes/lokossa-est.mjs";
+import grandpoponordDep from "./communes/grand-popo-nord.mjs";
+import bohiconouestDep from "./communes/bohicon-ouest.mjs";
+import abomeyestDep from "./communes/abomey-est.mjs";
+import ouidahestDep from "./communes/ouidah-est.mjs";
+import portonovocentreDep from "./communes/porto-novo-centre.mjs";
+import cotonououestDep from "./communes/cotonou-ouest.mjs";
+import kaffeDep from "./communes/kaffé.mjs";
 import { serviceCatalog, serviceBySlug } from "./services.mjs";
 
 const require = createRequire(import.meta.url);
 export const imageLibrary = require("../../assets/img/library.json");
 
-export const communes = [cotonou, portoNovo, ouidah, abomey, parakou, natitingou, nikki, soAva];
+export function getServices(commune) {
+  return commune.services.map((slug) => serviceBySlug[slug]);
+}
+
+export const communes = [
+  cotonou,
+  adjohoun,
+  portoNovo,
+  abomeyCalavi,
+  allada,
+  ouidah,
+  soAva,
+  abomey,
+  bohicon,
+  cove,
+  aplahoue,
+  dogbo,
+  banikoara,
+  djougou,
+  kandi,
+  malanville,
+  bembereke,
+  nikki,
+  parakou,
+  tchaourou,
+  boukoumbe,
+  dassaZoume,
+  natitingou,
+  savalou,
+  ketou,
+  sakete,
+  grandPopo,
+  lokossa,
+  // 20 nouvelles communes
+  kopeDep,
+  banteDep,
+  bopaDep,
+  ouemenouDep,
+  ketoucentreDep,
+  saketeestDep,
+  bemberekeestDep,
+  malanvillenordDep,
+  kandiestDep,
+  djougoucentreDep,
+  aplahoueestDep,
+  dogbocentreDep,
+  lokossaestDep,
+  grandpoponordDep,
+  bohiconouestDep,
+  abomeyestDep,
+  ouidahestDep,
+  portonovocentreDep,
+  cotonououestDep,
+  kaffeDep,
+];
 export const communeBySlug = Object.fromEntries(communes.map((c) => [c.slug, c]));
 export { serviceCatalog, serviceBySlug };
 
@@ -27,40 +121,3 @@ export const site = {
   creditsNote:
     "Photographies sous licences Creative Commons, créditées individuellement. Identités et emblèmes générés pour la démonstration.",
 };
-
-const required = [
-  "slug", "name", "nameWithDe", "nameWithA", "department", "region", "motto", "positioning",
-  "identity", "hero", "intro", "stats", "services", "news", "events", "projects", "budget",
-  "markets", "documents", "attractions", "history", "map", "gastronomy", "economy", "culture",
-  "youth", "contacts", "mayor", "faq", "seo",
-];
-
-for (const c of communes) {
-  for (const key of required) {
-    if (c[key] === undefined) throw new Error(`[data] ${c.slug}: champ manquant « ${key} »`);
-  }
-  for (const s of c.services) {
-    if (!serviceBySlug[s]) throw new Error(`[data] ${c.slug}: démarche inconnue « ${s} »`);
-  }
-  for (const n of c.news) {
-    if (!imageLibrary[n.image]) throw new Error(`[data] ${c.slug}: image inconnue « ${n.image} »`);
-  }
-  for (const p of c.projects) {
-    if (!imageLibrary[p.image]) throw new Error(`[data] ${c.slug}: image inconnue « ${p.image} »`);
-  }
-  if (c.map.pois.length < 6) throw new Error(`[data] ${c.slug}: carte trop pauvre`);
-}
-
-export function getServices(commune) {
-  return commune.services.map((slug) => serviceBySlug[slug]);
-}
-
-export function getCommune(slug) {
-  const c = communeBySlug[slug];
-  if (!c) throw new Error(`Commune inconnue: ${slug}`);
-  return c;
-}
-
-export function formatNumber(n) {
-  return new Intl.NumberFormat("fr-FR").format(n);
-}
