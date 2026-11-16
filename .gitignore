@@ -5,3 +5,4 @@ assets/img/sheets/
 .vercel
 .DS_Store
 *.log
+.env*
