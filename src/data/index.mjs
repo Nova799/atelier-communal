@@ -47,8 +47,36 @@ import ouidahestDep from "./communes/ouidah-est.mjs";
 import portonovocentreDep from "./communes/porto-novo-centre.mjs";
 import cotonououestDep from "./communes/cotonou-ouest.mjs";
 import kaffeDep from "./communes/kaffé.mjs";
+import agbangnizoun from "./communes/agbangnizoun.mjs";
+import agouandji from "./communes/agouandji.mjs";
+import akpromisserete from "./communes/akpro-misserete.mjs";
+import amede from "./communes/amede.mjs";
+import amikpo from "./communes/amikpo.mjs";
+import analien from "./communes/analien.mjs";
+import anda from "./communes/anda.mjs";
+import ansaville from "./communes/ansaville.mjs";
+import apedi from "./communes/apedi.mjs";
+import atto from "./communes/atto.mjs";
+import attogon from "./communes/attogon.mjs";
+import auto from "./communes/auto.mjs";
+import avlekete from "./communes/avlekete.mjs";
+import azozohoue from "./communes/azozohoue.mjs";
+import bakinzu from "./communes/bakinzu.mjs";
+import bala from "./communes/bala.mjs";
+import bantècentre from "./communes/bantè-centre.mjs";
+import baptè from "./communes/baptè.mjs";
+import bassila from "./communes/bassila.mjs";
+import batin from "./communes/batin.mjs";
+import beto from "./communes/beto.mjs";
+import betè from "./communes/betè.mjs";
+import bibichende from "./communes/bibichende.mjs";
+import bokè from "./communes/bokè.mjs";
+import bodjédji from "./communes/bodjédji.mjs";
+import bodjé from "./communes/bodjé.mjs";
+import bodjri from "./communes/bodjri.mjs";
+import cacahou from "./communes/cacahou.mjs";
+import cachin from "./communes/cachin.mjs";
 import { serviceCatalog, serviceBySlug } from "./services.mjs";
-
 const require = createRequire(import.meta.url);
 export const imageLibrary = require("../../assets/img/library.json");
 
@@ -85,7 +113,7 @@ export const communes = [
   sakete,
   grandPopo,
   lokossa,
-  // 20 nouvelles communes
+  // 20 nouvelles communes (first batch)
   kopeDep,
   banteDep,
   bopaDep,
@@ -106,6 +134,36 @@ export const communes = [
   portonovocentreDep,
   cotonououestDep,
   kaffeDep,
+  // 29 nouvelles communes
+  agbangnizoun,
+  agouandji,
+  akpromisserete,
+  amede,
+  amikpo,
+  analien,
+  anda,
+  ansaville,
+  apedi,
+  atto,
+  attogon,
+  auto,
+  avlekete,
+  azozohoue,
+  bakinzu,
+  bala,
+  bantècentre,
+  baptè,
+  bassila,
+  batin,
+  beto,
+  betè,
+  bibichende,
+  bokè,
+  bodjédji,
+  bodjé,
+  bodjri,
+  cacahou,
+  cachin,
 ];
 export const communeBySlug = Object.fromEntries(communes.map((c) => [c.slug, c]));
 export { serviceCatalog, serviceBySlug };
@@ -119,5 +177,5 @@ export const site = {
   disclaimer:
     "Site de démonstration. Les contenus, chiffres, adresses et identités visuelles sont fictifs et ne constituent pas des informations officielles.",
   creditsNote:
-    "Photographies sous licences Creative Commons, créditées individuellement. Identités et emblèmes générés pour la démonstration.",
+    "Photographies sous licences Creative Commons, créditées individuellement. Identités etemblèmes générés pour la démonstration.",
 };
