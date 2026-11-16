@@ -1,0 +1,195 @@
+/* Direction 19 — Terre
+   Une édition rurale sensible : papier, argile, traits dessinés,
+   photographies de paysage et récits d'usage.
+   Literata pour la voix, DM Sans pour la note. */
+
+.tpl--terre {
+  --font-display: "literata", Georgia, serif;
+  --font-body: "dm-sans", Arial, sans-serif;
+  --font-mono: "dm-sans", Arial, sans-serif;
+  --bg: #f6efe2;
+  --surface: #fcf7ec;
+  --line: color-mix(in srgb, #3d2a17 14%, #f6efe2);
+  --line-strong: color-mix(in srgb, #3d2a17 34%, #f6efe2);
+  --radius: 2px;
+  --radius-lg: 3px;
+  --header-h: 76px;
+  --clay: var(--c-primary);
+  --leaf: var(--c-accent);
+  --deep: var(--c-deep);
+  --ink: #2a2118;
+  background: var(--bg);
+}
+html:has(.tpl--terre) { scroll-padding-top: calc(var(--demo-h) + 92px); }
+.tpl--terre .section { scroll-margin-top: 0; }
+.tpl--terre ::selection { background: color-mix(in srgb, var(--leaf) 35%, #fff); color: var(--ink); }
+.tpl--terre .btn { border-radius: 0; border-width: 1px; font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.tpl--terre .btn--solid { background: var(--clay); border-color: var(--clay); color: #fdf8ee; }
+.tpl--terre .btn--solid:hover { background: var(--ink); border-color: var(--ink); }
+.tpl--terre .btn--ghost { border-color: var(--line-strong); color: var(--ink); }
+.tpl--terre .btn--ghost:hover { background: var(--ink); border-color: var(--ink); color: #fdf8ee; }
+.tpl--terre .tag { border-radius: 0; font-size: 0.52rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.tpl--terre .eyebrow { font-size: 0.56rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--clay); }
+.tpl--terre .eyebrow__mark { width: 1.7rem; height: 1px; background: var(--leaf); }
+.tpl--terre .sec-head { align-items: end; padding-bottom: 0.8rem; border-bottom: 1px solid var(--line-strong); }
+.tpl--terre .sec-head h2 { font-family: var(--font-display); font-size: clamp(2.1rem, 4.3vw, 3.9rem); font-weight: 400; line-height: 1.06; letter-spacing: -0.035em; }
+.tpl--terre .sec-head__lead { max-width: 46ch; font-size: 0.88rem; line-height: 1.65; }
+.tpl--terre .demonote { font-size: 0.62rem; border-top: 1px dashed var(--line-strong); }
+
+/* En-tête --------------------------------------------------------------- */
+
+.t19-head { position: sticky; top: var(--demo-h); z-index: 320; background: color-mix(in srgb, #f6efe2 96%, transparent); border-bottom: 1px solid var(--line-strong); backdrop-filter: blur(10px); }
+.t19-head.is-scrolled { box-shadow: 0 12px 30px -30px #2a2118; }
+.t19-head__inner { display: flex; align-items: center; gap: 1.4rem; min-height: 72px; max-width: 1440px; margin-inline: auto; padding: 0 clamp(1rem, 3.4vw, 3rem); }
+.t19-head .brand__mark { color: var(--clay); }
+.t19-head .brand__name { font-family: var(--font-display); font-size: 1.22rem; font-weight: 500; letter-spacing: -0.02em; }
+.t19-head .brand__sub { font-size: 0.48rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); }
+.t19-nav { display: flex; gap: clamp(0.6rem, 1.5vw, 1.3rem); margin-left: auto; }
+.t19-nav a { padding: 0.2rem 0; border-bottom: 1px solid transparent; font-size: 0.64rem; letter-spacing: 0.02em; color: var(--muted); text-decoration: none; }
+.t19-nav a:hover { border-bottom-color: var(--clay); color: var(--clay); }
+.t19-head__cta { display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.42rem 0.75rem; border: 1px solid var(--clay); font-size: 0.6rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--clay); text-decoration: none; }
+.t19-head__cta:hover { background: var(--clay); color: #fdf8ee; }
+.t19-head .navtoggle { display: none; border-radius: 0; border-color: var(--line-strong); }
+@media (max-width: 1080px) { .t19-nav, .t19-head__cta { display: none; } .t19-head .navtoggle { display: inline-flex; margin-left: auto; } }
+
+/* Héros ----------------------------------------------------------------- */
+
+.t19-hero { position: relative; padding: clamp(2.4rem, 5vw, 4.6rem) clamp(1rem, 4vw, 3.4rem) clamp(2rem, 4vw, 3.4rem); overflow: hidden; border-bottom: 1px solid var(--line-strong); background: linear-gradient(180deg, #f8f1e5, var(--bg)); }
+.t19-hero::before { content: ""; position: absolute; inset: 0; background-image: radial-gradient(color-mix(in srgb, var(--clay) 8%, transparent) 0.7px, transparent 0.7px); background-size: 5px 5px; opacity: 0.5; pointer-events: none; }
+.t19-hero__edition { position: absolute; left: clamp(0.6rem, 1.6vw, 1.4rem); top: 50%; z-index: 3; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; writing-mode: vertical-rl; font-size: 0.46rem; letter-spacing: 0.26em; text-transform: uppercase; color: var(--faint); transform: translateY(-50%); }
+.t19-hero__edition strong { font-family: var(--font-display); font-size: 1.7rem; font-weight: 400; letter-spacing: 0; color: var(--clay); }
+@media (max-width: 1180px) { .t19-hero__edition { display: none; } }
+.t19-hero__inner { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; max-width: 1280px; margin-inline: auto; }
+.t19-kicker { display: flex; align-items: center; gap: 0.55rem; font-size: 0.56rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--clay); }
+.t19-kicker span { width: 1.8rem; height: 1px; background: var(--leaf); }
+.t19-hero h1 { margin-top: 1.2rem; font-family: var(--font-display); font-size: clamp(3.2rem, 7vw, 7rem); font-weight: 400; line-height: 0.94; letter-spacing: -0.045em; color: var(--ink); text-wrap: balance; }
+.t19-hero h1 span { display: block; }
+.t19-hero h1 em { display: block; max-width: 18ch; margin-top: 0.22em; font-family: var(--font-display); font-size: 0.33em; font-style: italic; font-weight: 400; line-height: 1.18; letter-spacing: -0.01em; color: var(--clay); }
+.t19-hero__lead { max-width: 50ch; margin-top: 1.25rem; font-size: 0.98rem; line-height: 1.75; color: var(--muted); }
+.t19-hero__actions { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-top: 1.5rem; }
+.t19-hero__facts { display: flex; flex-wrap: wrap; gap: 0.7rem 2.2rem; margin-top: 2.2rem; padding-top: 0.9rem; border-top: 1px solid var(--line-strong); }
+.t19-hero__facts dt { font-size: 0.48rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--faint); }
+.t19-hero__facts dd { margin-top: 0.15rem; font-family: var(--font-display); font-size: 0.84rem; }
+.t19-hero__figure { position: relative; margin: 0; padding: 0.8rem; background: var(--surface); border: 1px solid var(--line-strong); box-shadow: 12px 14px 0 color-mix(in srgb, var(--clay) 10%, transparent); transform: rotate(-0.6deg); }
+.t19-hero__tape { position: absolute; top: -0.75rem; left: 50%; z-index: 3; width: 96px; height: 22px; background: color-mix(in srgb, var(--leaf) 42%, #fdf8ee); transform: translateX(-50%) rotate(2deg); opacity: 0.85; }
+.t19-hero__frame { overflow: hidden; }
+.t19-hero__frame img { display: block; width: 100%; aspect-ratio: 4 / 4.6; object-fit: cover; filter: saturate(0.84) sepia(0.06) contrast(1.02); }
+.t19-hero__figure figcaption { display: grid; gap: 0.25rem; padding: 0.75rem 0.2rem 0.15rem; }
+.t19-hero__planche { font-size: 0.46rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--leaf); }
+.t19-hero__cap { font-family: var(--font-display); font-size: 0.86rem; font-style: italic; line-height: 1.35; color: var(--ink); }
+.t19-hero__credit { font-size: 0.46rem; color: var(--faint); }
+.t19-hero__note { position: relative; z-index: 2; display: flex; align-items: center; gap: 0.3rem; max-width: 1280px; margin: 1rem auto 0; font-size: 0.52rem; color: var(--faint); }
+@media (max-width: 900px) {
+  .t19-hero__inner { grid-template-columns: 1fr; }
+  .t19-hero__figure { max-width: 460px; transform: rotate(0); box-shadow: 8px 9px 0 color-mix(in srgb, var(--clay) 10%, transparent); }
+  .t19-hero h1 { font-size: clamp(2.9rem, 13vw, 5.6rem); }
+}
+@media (max-width: 560px) { .t19-hero__figure { padding: 0.55rem; } }
+
+/* Terroir --------------------------------------------------------------- */
+
+.t19-terroir { background: var(--surface); }
+.t19-terroir__grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr); gap: clamp(1.8rem, 5vw, 5rem); align-items: start; }
+.t19-lead { max-width: 56ch; font-family: var(--font-display); font-size: clamp(1.05rem, 1.7vw, 1.28rem); line-height: 1.7; color: var(--ink); }
+.t19-lead::first-letter { float: left; margin: 0.08em 0.1em 0 0; font-family: var(--font-display); font-size: 3.2em; line-height: 0.78; color: var(--clay); }
+.t19-terroir blockquote { max-width: 44ch; margin-top: 1.5rem; padding: 0.9rem 0 0.9rem 1.2rem; border-left: 2px solid var(--leaf); font-family: var(--font-display); font-size: clamp(1.05rem, 1.8vw, 1.35rem); font-style: italic; line-height: 1.45; color: var(--clay); }
+.t19-terroir .demonote { margin-top: 1.3rem; }
+.t19-terroir__figure { margin: 0; }
+.t19-terroir__figure img { width: 100%; aspect-ratio: 4 / 4.4; object-fit: cover; border: 1px solid var(--line-strong); filter: saturate(0.82) sepia(0.05); }
+.t19-terroir__figure figcaption { margin-top: 0.5rem; font-size: 0.54rem; line-height: 1.5; color: var(--faint); }
+.t19-marks { margin-top: clamp(2rem, 4vw, 3.4rem); padding-top: 1.2rem; border-top: 1px solid var(--line-strong); }
+.t19-marks .stats { display: grid; grid-template-columns: repeat(4, 1fr); }
+.t19-marks .stat { padding: 0 1.2rem; border-right: 1px solid var(--line); }
+.t19-marks .stat:first-child { padding-left: 0; }
+.t19-marks .stat:last-of-type { border-right: 0; }
+.t19-marks .stat__value { font-family: var(--font-display); font-size: clamp(2rem, 3.6vw, 3.2rem); font-weight: 400; line-height: 1; letter-spacing: -0.03em; color: var(--clay); }
+.t19-marks .stat__label { margin-top: 0.35rem; font-size: 0.68rem; }
+.t19-marks .stat__note { font-size: 0.54rem; }
+.t19-marks .stats__note { grid-column: 1 / -1; margin-top: 0.9rem; padding-top: 0.5rem; border-top: 1px dashed var(--line-strong); font-size: 0.52rem; }
+@media (max-width: 860px) { .t19-terroir__grid { grid-template-columns: 1fr; } .t19-terroir__figure { max-width: 480px; } .t19-marks .stats { grid-template-columns: 1fr 1fr; } .t19-marks .stat:nth-of-type(2n) { border-right: 0; } .t19-marks .stat { padding: 0.8rem 1rem; border-bottom: 1px solid var(--line); } }
+
+/* Trait dessiné --------------------------------------------------------- */
+
+.t19-stroke { position: relative; height: 26px; background: var(--bg); }
+.t19-stroke svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.t19-stroke path { fill: none; stroke: var(--clay); stroke-width: 1.2; opacity: 0.5; }
+
+/* Économie -------------------------------------------------------------- */
+
+.tpl--terre #economie { background: var(--bg); }
+.tpl--terre #economie .economy__inner { border-top: 0; }
+.tpl--terre #economie .economy__text { font-family: var(--font-display); font-size: clamp(1.05rem, 1.6vw, 1.2rem); line-height: 1.7; color: var(--ink); }
+.tpl--terre #economie .economy__sectors { gap: 1rem; }
+.tpl--terre #economie .economy__sectors li { grid-template-columns: minmax(0, 1fr) 1.4fr 46px; padding-bottom: 0.7rem; border-bottom: 1px solid var(--line); }
+.tpl--terre #economie .economy__label { font-size: 0.74rem; }
+.tpl--terre #economie .economy__track { height: 8px; background: color-mix(in srgb, var(--clay) 8%, transparent); }
+.tpl--terre #economie .economy__track span { background: repeating-linear-gradient(135deg, var(--leaf) 0 3px, color-mix(in srgb, var(--leaf) 55%, var(--bg)) 3px 5px); }
+.tpl--terre #economie .economy__val { font-family: var(--font-display); font-size: 0.72rem; color: var(--clay); }
+
+/* Saveurs --------------------------------------------------------------- */
+
+.tpl--terre #saveurs { background: var(--deep); color: #fdf8ee; --fg: #fdf8ee; --muted: rgb(253 248 238 / 0.7); --faint: rgb(253 248 238 / 0.44); --line: rgb(253 248 238 / 0.18); --line-strong: rgb(253 248 238 / 0.4); }
+.tpl--terre #saveurs .sec-head h2 { color: #fdf8ee; }
+.tpl--terre #saveurs .eyebrow { color: #d8e6b1; }
+.tpl--terre #saveurs .eyebrow__mark { background: #a9c078; }
+.tpl--terre #saveurs .sec-head { border-bottom-color: rgb(253 248 238 / 0.4); }
+.tpl--terre #saveurs .gastronomy__list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem; border-top: 0; margin-top: 1.8rem; }
+.tpl--terre #saveurs .gastronomy__list li { display: block; padding: 1.2rem 0 0; border-top: 1px solid rgb(253 248 238 / 0.4); border-bottom: 0; }
+.tpl--terre #saveurs .gastronomy__n { display: block; font-family: var(--font-display); font-size: 2rem; color: var(--leaf); }
+.tpl--terre #saveurs .gastronomy h3 { margin-top: 0.5rem; font-family: var(--font-display); font-size: clamp(1.3rem, 2.2vw, 1.7rem); font-weight: 400; }
+.tpl--terre #saveurs .gastronomy p { margin-top: 0.4rem; font-size: 0.8rem; line-height: 1.65; color: rgb(253 248 238 / 0.66); }
+.tpl--terre #saveurs .gastronomy__note { margin-top: 1.2rem; padding-top: 0.7rem; color: rgb(253 248 238 / 0.46); border-top: 1px solid rgb(253 248 238 / 0.2); }
+@media (max-width: 820px) { .tpl--terre #saveurs .gastronomy__list { grid-template-columns: 1fr; } }
+
+/* Projets --------------------------------------------------------------- */
+
+.tpl--terre #projets { background: var(--surface); }
+.tpl--terre #projets .projects__grid { grid-template-columns: 1fr 1fr; gap: 1.6rem; }
+.tpl--terre #projets .project { background: var(--bg); border: 1px solid var(--line-strong); }
+.tpl--terre #projets .project__media img { aspect-ratio: 16 / 9; object-fit: cover; filter: saturate(0.84); }
+.tpl--terre #projets .project__body { padding: 1.1rem 1.2rem 1.3rem; }
+.tpl--terre #projets .project h3 { font-family: var(--font-display); font-size: clamp(1.25rem, 2vw, 1.55rem); font-weight: 400; letter-spacing: -0.02em; }
+.tpl--terre #projets .project p { font-size: 0.8rem; }
+.tpl--terre #projets .project__facts { font-size: 0.66rem; }
+.tpl--terre #projets .progress { background: color-mix(in srgb, var(--clay) 10%, transparent); }
+.tpl--terre #projets .progress__bar { background: var(--clay); }
+@media (max-width: 760px) { .tpl--terre #projets .projects__grid { grid-template-columns: 1fr; } }
+
+/* Actualités ------------------------------------------------------------ */
+
+.tpl--terre #actualites { background: var(--bg); }
+.tpl--terre #actualites .news-card { background: var(--surface); border: 1px solid var(--line-strong); }
+.tpl--terre #actualites .news-card__media img { filter: saturate(0.82) sepia(0.04); }
+.tpl--terre #actualites .news-card__title { font-family: var(--font-display); font-weight: 400; letter-spacing: -0.02em; }
+.tpl--terre #actualites .news-card__cat { color: var(--clay); }
+.tpl--terre #actualites .news-item h3 { font-family: var(--font-display); font-weight: 400; }
+
+/* Carte, guichet, contact ----------------------------------------------- */
+
+.tpl--terre #carte { background: var(--surface); }
+.tpl--terre #carte .atlas-map { border: 1px solid var(--line-strong); background: color-mix(in srgb, var(--leaf) 7%, var(--surface)); }
+.tpl--terre #carte .atlas-map__chip { border-radius: 0; font-size: 0.54rem; letter-spacing: 0.04em; }
+.tpl--terre #carte .atlas-map__chip.is-active { background: var(--clay); border-color: var(--clay); }
+.tpl--terre #carte .atlas-map__tools button { border-radius: 0; }
+.tpl--terre #carte .atlas-map__poi.is-active { box-shadow: inset 3px 0 0 var(--leaf); }
+
+.tpl--terre .mayor { background: color-mix(in srgb, var(--leaf) 14%, var(--bg)); }
+.tpl--terre .mayor__quote { font-family: var(--font-display); font-weight: 400; letter-spacing: -0.02em; }
+.tpl--terre .mayor__signature { color: var(--clay); }
+.tpl--terre .mayor__emblem { color: var(--clay); opacity: 0.3; }
+
+.tpl--terre #services { background: var(--surface); }
+.tpl--terre #services .svc-grid { gap: 0.8rem; border: 0; }
+.tpl--terre #services .svc { border: 1px solid var(--line); background: var(--bg); }
+.tpl--terre #services .svc__icon { border-radius: 0; color: var(--clay); }
+.tpl--terre #services .svc__name { font-family: var(--font-display); font-weight: 400; font-size: 1rem; }
+.tpl--terre #services .svc-chip { border-radius: 0; font-size: 0.54rem; }
+.tpl--terre #services .svc-chip.is-active { background: var(--clay); border-color: var(--clay); }
+.tpl--terre #services .svc-search { border-radius: 0; background: var(--bg); }
+.tpl--terre #services .svc[open] { background: var(--surface); }
+
+.tpl--terre #contact { background: var(--bg); }
+.tpl--terre #contact .contact__inner { border-top: 1px solid var(--line-strong); }
+.t19-rail { padding: 0.9rem clamp(1rem, 4vw, 3.4rem); background: var(--surface); border-top: 1px solid var(--line-strong); }
+.tpl--terre .footer { background: #2b2016; }
+.tpl--terre .footer__name { font-family: var(--font-display); font-weight: 400; }

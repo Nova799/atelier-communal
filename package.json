@@ -1,0 +1,23 @@
+{
+  "name": "atelier-communal",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Vingt-deux directions de sites communaux pour le Bénin — démonstration statique, accessible et documentée. Directions Reflets (WebGL/GLSL) et Relief (diorama 3D Blender → GLB → @pixi/3d), vendorisées en local, zéro CDN.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "shoot": "node scripts/screenshot.mjs",
+    "previews": "node scripts/previews.mjs",
+    "verify": "npm run build && npm run check && npm run shoot"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@pixi/3d": "^0.1.0",
+    "pixi.js": "^8.23.0"
+  }
+}

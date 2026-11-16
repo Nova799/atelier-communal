@@ -1,0 +1,1730 @@
+{
+ "cotonou-boulevard": {
+  "alt": "Vue sur les axes routiers et le marché de Dantokpa, à Cotonou",
+  "caption": "Autour de Dantokpa, Cotonou",
+  "place": "Cotonou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/cotonou-boulevard-640.webp",
+    "bytes": 56010
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/cotonou-boulevard-1280.webp",
+    "bytes": 245338
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/cotonou-boulevard-1920.webp",
+    "bytes": 610834
+   }
+  ],
+  "tint": "#7e838b",
+  "credit": "Alacoolwiki",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:March%C3%A9_Dantokpa_1.jpg"
+ },
+ "cotonou-passerelle": {
+  "alt": "Passerelle piétonne animée au-dessus du marché de Dantokpa",
+  "caption": "La passerelle de Dantokpa",
+  "place": "Cotonou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/cotonou-passerelle-640.webp",
+    "bytes": 44804
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/cotonou-passerelle-1280.webp",
+    "bytes": 108024
+   }
+  ],
+  "tint": "#8a8081",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sur_la_passerelle_du_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg"
+ },
+ "cotonou-portage": {
+  "alt": "Commerçantes portant leurs produits dans les escaliers de la passerelle",
+  "caption": "Portage et commerce quotidien",
+  "place": "Cotonou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/cotonou-portage-640.webp",
+    "bytes": 48038
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/cotonou-portage-1280.webp",
+    "bytes": 171474
+   }
+  ],
+  "tint": "#bbbbba",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:VENDEUSE_DE_CONDIMENTS_SUR_LA_PASSERELLE_MARCHE_DANTOKPA-COTONOU_BENIN.jpg"
+ },
+ "cotonou-axe": {
+  "alt": "Circulation et étals sous la passerelle du marché de Dantokpa",
+  "caption": "Sous la passerelle, l'économie informelle",
+  "place": "Cotonou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/cotonou-axe-640.webp",
+    "bytes": 46306
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/cotonou-axe-1280.webp",
+    "bytes": 174582
+   },
+   {
+    "w": 1920,
+    "h": 1280,
+    "file": "/assets/img/cotonou-axe-1920.webp",
+    "bytes": 378946
+   }
+  ],
+  "tint": "#888a89",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Autoroute_sous_la_passerelle_du_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg"
+ },
+ "cotonou-lagune": {
+  "alt": "Front de lagune et immeubles à Cotonou",
+  "caption": "Le front de lagune",
+  "place": "Cotonou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 424,
+    "file": "/assets/img/cotonou-lagune-640.webp",
+    "bytes": 36728
+   },
+   {
+    "w": 1280,
+    "h": 848,
+    "file": "/assets/img/cotonou-lagune-1280.webp",
+    "bytes": 141992
+   },
+   {
+    "w": 1920,
+    "h": 1272,
+    "file": "/assets/img/cotonou-lagune-1920.webp",
+    "bytes": 315514
+   }
+  ],
+  "tint": "#c3c2bf",
+  "credit": "jbdodane",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Cotonou-Benin_(2013).jpg"
+ },
+ "cotonou-moto": {
+  "alt": "Conducteurs de zémidjan casqués dans une rue de Cotonou",
+  "caption": "Les zémidjans, mobilité du quotidien",
+  "place": "Cotonou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/cotonou-moto-640.webp",
+    "bytes": 59692
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/cotonou-moto-1280.webp",
+    "bytes": 198462
+   }
+  ],
+  "tint": "#71685f",
+  "credit": "Mah3110",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Z%C3%A9midjans(conducteur_de_motos)_%C3%A0_Cotonou.jpg"
+ },
+ "portonovo-mosquee": {
+  "alt": "La Grande Mosquée de Porto-Novo, façade colorée et clochers",
+  "caption": "La Grande Mosquée",
+  "place": "Porto-Novo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/portonovo-mosquee-640.webp",
+    "bytes": 56050
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/portonovo-mosquee-1280.webp",
+    "bytes": 214320
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/portonovo-mosquee-1920.webp",
+    "bytes": 470120
+   }
+  ],
+  "tint": "#9e8973",
+  "credit": "Gildaskiki",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Grande_Mosqu%C3%A9e_de_Porto-Novo_au_B%C3%A9nin_03.jpg"
+ },
+ "portonovo-porte": {
+  "alt": "Porte verte de la Grande Mosquée de Porto-Novo",
+  "caption": "Détail d'une porte de la Grande Mosquée",
+  "place": "Porto-Novo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 853,
+    "file": "/assets/img/portonovo-porte-640.webp",
+    "bytes": 107674
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "file": "/assets/img/portonovo-porte-1280.webp",
+    "bytes": 562196
+   }
+  ],
+  "tint": "#9a8a64",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vue_d%27une_entr%C3%A9e_de_la_Grande_mosqu%C3%A9e_de_Porto-Novo_au_B%C3%A9nin.jpg"
+ },
+ "portonovo-rue": {
+  "alt": "Rue longeant la Grande Mosquée de Porto-Novo",
+  "caption": "Au pied de la Grande Mosquée",
+  "place": "Porto-Novo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/portonovo-rue-640.webp",
+    "bytes": 51290
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/portonovo-rue-1280.webp",
+    "bytes": 198790
+   }
+  ],
+  "tint": "#89775e",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vue_de_profil_de_la_grande_mosqu%C3%A9e_centrale_de_Porto-Novo_au_B%C3%A9nin.jpg"
+ },
+ "portonovo-portage": {
+  "alt": "Jeunes vendeurs portant des paniers devant une maison de Porto-Novo",
+  "caption": "Jeunes vendeurs, Porto-Novo",
+  "place": "Porto-Novo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 651,
+    "file": "/assets/img/portonovo-portage-640.webp",
+    "bytes": 49998
+   },
+   {
+    "w": 1280,
+    "h": 1301,
+    "file": "/assets/img/portonovo-portage-1280.webp",
+    "bytes": 136942
+   }
+  ],
+  "tint": "#896769",
+  "credit": "Helinä Rautavaaran museo from Espoo, Finland",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Young_salesmen_in_Porto_Novo-_Nuoria_myyji%C3%A4_Porto_Novossa_(16842330141).jpg"
+ },
+ "portonovo-place": {
+  "alt": "Place animée devant la Grande Mosquée de Porto-Novo",
+  "caption": "La place de la Grande Mosquée",
+  "place": "Porto-Novo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 424,
+    "file": "/assets/img/portonovo-place-640.webp",
+    "bytes": 62348
+   },
+   {
+    "w": 1280,
+    "h": 848,
+    "file": "/assets/img/portonovo-place-1280.webp",
+    "bytes": 261412
+   },
+   {
+    "w": 1920,
+    "h": 1272,
+    "file": "/assets/img/portonovo-place-1920.webp",
+    "bytes": 710006
+   }
+  ],
+  "tint": "#887967",
+  "credit": "GBETONGNINOUGBO JOSEPH HERVE AHISSOU",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Grande_Mosquee_Porto-Novo_Benin_Joseph_Herve_Ahissou.jpg"
+ },
+ "portonovo-plaque": {
+  "alt": "Plaque émaillée de la rue Delcassé à Porto-Novo",
+  "caption": "Rue Delcassé",
+  "place": "Porto-Novo",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/portonovo-plaque-640.webp",
+    "bytes": 29846
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/portonovo-plaque-1280.webp",
+    "bytes": 118700
+   }
+  ],
+  "tint": "#c18e45",
+  "credit": "Saliousoft",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Plaque_de_la_Rue_Delcasse_%C3%A0_Porto-Novo_au_B%C3%A9nin.jpg"
+ },
+ "ouidah-porte": {
+  "alt": "Visiteurs devant le monument de la Porte du Non-Retour à Ouidah",
+  "caption": "La Porte du Non-Retour",
+  "place": "Ouidah",
+  "sources": [
+   {
+    "w": 640,
+    "h": 359,
+    "file": "/assets/img/ouidah-porte-640.webp",
+    "bytes": 27866
+   },
+   {
+    "w": 1280,
+    "h": 719,
+    "file": "/assets/img/ouidah-porte-1280.webp",
+    "bytes": 116942
+   },
+   {
+    "w": 1920,
+    "h": 1078,
+    "file": "/assets/img/ouidah-porte-1920.webp",
+    "bytes": 308794
+   }
+  ],
+  "tint": "#bda08c",
+  "credit": "Kulttuurinavigaattori",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Viewers_at_the_monument_in_Ouidah_Benin_Jan_2018.jpg"
+ },
+ "ouidah-allee": {
+  "alt": "Allée de la Route de l'Esclave menant à la Porte du Non-Retour",
+  "caption": "L'allée de la mémoire",
+  "place": "Ouidah",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/ouidah-allee-640.webp",
+    "bytes": 39920
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/ouidah-allee-1280.webp",
+    "bytes": 192188
+   }
+  ],
+  "tint": "#afa99c",
+  "credit": "Ji-Elle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ouidah-Esplanade_de_la_Porte_du_Non-Retour-C%C3%B4t%C3%A9_route_(2).jpg"
+ },
+ "ouidah-python": {
+  "alt": "Entrée bleue et blanche du Temple des Pythons à Ouidah",
+  "caption": "Le Temple des Pythons",
+  "place": "Ouidah",
+  "sources": [
+   {
+    "w": 640,
+    "h": 497,
+    "file": "/assets/img/ouidah-python-640.webp",
+    "bytes": 68076
+   },
+   {
+    "w": 1280,
+    "h": 995,
+    "file": "/assets/img/ouidah-python-1280.webp",
+    "bytes": 246120
+   }
+  ],
+  "tint": "#6f6f69",
+  "credit": "Ji-Elle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_du_Temple_des_Pythons_(Ouidah).jpg"
+ },
+ "ouidah-danse": {
+  "alt": "Danseuse en costume lors d'une cérémonie à Ouidah",
+  "caption": "Danse rituelle à Ouidah",
+  "place": "Ouidah",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/ouidah-danse-640.webp",
+    "bytes": 67848
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/ouidah-danse-1280.webp",
+    "bytes": 206102
+   },
+   {
+    "w": 1920,
+    "h": 1280,
+    "file": "/assets/img/ouidah-danse-1920.webp",
+    "bytes": 387406
+   }
+  ],
+  "tint": "#b78579",
+  "credit": "Kennethdegan",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ancestral_religious_dance_at_Ouidah.jpg"
+ },
+ "ouidah-rituel": {
+  "alt": "Adepte d'une divinité vodoun lors d'un rituel au Bénin",
+  "caption": "Un rituel vodoun",
+  "place": "Ouidah",
+  "sources": [
+   {
+    "w": 640,
+    "h": 360,
+    "file": "/assets/img/ouidah-rituel-640.webp",
+    "bytes": 36372
+   },
+   {
+    "w": 1280,
+    "h": 721,
+    "file": "/assets/img/ouidah-rituel-1280.webp",
+    "bytes": 120286
+   }
+  ],
+  "tint": "#907c68",
+  "credit": "Jack Djossou",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Adepte_d%27une_divinit%C3%A9_vodoun_au_B%C3%A9nin.jpg"
+ },
+ "ouidah-rue": {
+  "alt": "Rue bordée d'arbres à l'entrée de Ouidah",
+  "caption": "À l'entrée de la ville",
+  "place": "Ouidah",
+  "sources": [
+   {
+    "w": 640,
+    "h": 426,
+    "file": "/assets/img/ouidah-rue-640.webp",
+    "bytes": 60426
+   },
+   {
+    "w": 1280,
+    "h": 851,
+    "file": "/assets/img/ouidah-rue-1280.webp",
+    "bytes": 217228
+   }
+  ],
+  "tint": "#969a85",
+  "credit": "Francisco Anzola from United States",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Arriving_in_Ouidah_(32568152427).jpg"
+ },
+ "ouidah-lagune": {
+  "alt": "Lagune et végétation aux abords de Ouidah",
+  "caption": "La lagune de Ouidah",
+  "place": "Ouidah",
+  "sources": [
+   {
+    "w": 640,
+    "h": 424,
+    "file": "/assets/img/ouidah-lagune-640.webp",
+    "bytes": 39802
+   },
+   {
+    "w": 1280,
+    "h": 848,
+    "file": "/assets/img/ouidah-lagune-1280.webp",
+    "bytes": 182100
+   }
+  ],
+  "tint": "#829098",
+  "credit": "jbdodane",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:20131010-DSC_3209_(10311185075).jpg"
+ },
+ "ouidah-plage": {
+  "alt": "Coucher de soleil sur la plage de Ouidah",
+  "caption": "La plage au coucher du soleil",
+  "place": "Ouidah",
+  "sources": [
+   {
+    "w": 640,
+    "h": 424,
+    "file": "/assets/img/ouidah-plage-640.webp",
+    "bytes": 26642
+   },
+   {
+    "w": 1280,
+    "h": 848,
+    "file": "/assets/img/ouidah-plage-1280.webp",
+    "bytes": 98060
+   },
+   {
+    "w": 1920,
+    "h": 1272,
+    "file": "/assets/img/ouidah-plage-1920.webp",
+    "bytes": 220544
+   }
+  ],
+  "tint": "#959a97",
+  "credit": "jbdodane",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Plage_de_Ouidah_(Benin,_2013).jpg"
+ },
+ "abomey-palais": {
+  "alt": "Cour et bâtiments des Palais royaux d'Abomey",
+  "caption": "Les Palais royaux",
+  "place": "Abomey",
+  "sources": [
+   {
+    "w": 640,
+    "h": 426,
+    "file": "/assets/img/abomey-palais-640.webp",
+    "bytes": 65824
+   },
+   {
+    "w": 1280,
+    "h": 851,
+    "file": "/assets/img/abomey-palais-1280.webp",
+    "bytes": 295554
+   },
+   {
+    "w": 1920,
+    "h": 1277,
+    "file": "/assets/img/abomey-palais-1920.webp",
+    "bytes": 639424
+   }
+  ],
+  "tint": "#956b50",
+  "credit": "Joachim Huber",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Abomey_2006_1.jpg"
+ },
+ "abomey-cour": {
+  "alt": "Grande case aux murs décorés dans l'enceinte des Palais royaux d'Abomey",
+  "caption": "Une case de l'enceinte royale",
+  "place": "Abomey",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/abomey-cour-640.webp",
+    "bytes": 50682
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/abomey-cour-1280.webp",
+    "bytes": 161198
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/abomey-cour-1920.webp",
+    "bytes": 319248
+   }
+  ],
+  "tint": "#a07f73",
+  "credit": "Karalyn Monteil",
+  "license": "CC BY-SA 3.0 igo",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Royal_Palaces_of_Abomey-133470.jpg"
+ },
+ "abomey-chefs": {
+  "alt": "Deux dignitaires en tenue de cérémonie aux Palais royaux d'Abomey",
+  "caption": "Dignitaires et mémoire du royaume",
+  "place": "Abomey",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/abomey-chefs-640.webp",
+    "bytes": 80126
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/abomey-chefs-1280.webp",
+    "bytes": 257590
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/abomey-chefs-1920.webp",
+    "bytes": 500262
+   }
+  ],
+  "tint": "#7c6d65",
+  "credit": "Karalyn Monteil",
+  "license": "CC BY-SA 3.0 igo",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Royal_Palaces_of_Abomey-133465.jpg"
+ },
+ "abomey-case": {
+  "alt": "Case au toit de chaume dans les jardins des Palais royaux",
+  "caption": "La case du trône",
+  "place": "Abomey",
+  "sources": [
+   {
+    "w": 640,
+    "h": 522,
+    "file": "/assets/img/abomey-case-640.webp",
+    "bytes": 64956
+   },
+   {
+    "w": 1280,
+    "h": 1045,
+    "file": "/assets/img/abomey-case-1280.webp",
+    "bytes": 270968
+   }
+  ],
+  "tint": "#858272",
+  "credit": "Karalyn Monteil",
+  "license": "CC BY-SA 3.0 igo",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Royal_Palaces_of_Abomey-133492.jpg"
+ },
+ "abomey-amazone": {
+  "alt": "Statue d'une Amazone du Dahomey sur la place Goho à Abomey",
+  "caption": "L'Amazone du Dahomey",
+  "place": "Abomey",
+  "sources": [
+   {
+    "w": 640,
+    "h": 853,
+    "file": "/assets/img/abomey-amazone-640.webp",
+    "bytes": 81228
+   },
+   {
+    "w": 1280,
+    "h": 1706,
+    "file": "/assets/img/abomey-amazone-1280.webp",
+    "bytes": 369642
+   }
+  ],
+  "tint": "#928576",
+  "credit": "Rachad sanoussi",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Place_Goho_Abomey.jpg"
+ },
+ "abomey-vodun": {
+  "alt": "Statuettes vodoun dans un autel à Abomey",
+  "caption": "Autel vodoun, Abomey",
+  "place": "Abomey",
+  "sources": [
+   {
+    "w": 640,
+    "h": 424,
+    "file": "/assets/img/abomey-vodun-640.webp",
+    "bytes": 72110
+   },
+   {
+    "w": 1280,
+    "h": 848,
+    "file": "/assets/img/abomey-vodun-1280.webp",
+    "bytes": 280030
+   }
+  ],
+  "tint": "#908577",
+  "credit": "jbdodane",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Divinit%C3%A9_Vodoun_Abomey_(Benin).jpg"
+ },
+ "abomey-artisan": {
+  "alt": "Artisan assis devant ses objets dans l'enceinte des Palais royaux",
+  "caption": "Artisanat et transmission",
+  "place": "Abomey",
+  "sources": [
+   {
+    "w": 640,
+    "h": 853,
+    "file": "/assets/img/abomey-artisan-640.webp",
+    "bytes": 106922
+   },
+   {
+    "w": 1280,
+    "h": 1707,
+    "file": "/assets/img/abomey-artisan-1280.webp",
+    "bytes": 308986
+   }
+  ],
+  "tint": "#7b574a",
+  "credit": "Karalyn Monteil",
+  "license": "CC BY-SA 3.0 igo",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Royal_Palaces_of_Abomey-133467.jpg"
+ },
+ "parakou-numerique": {
+  "alt": "Jeunes participant à un atelier numérique à Parakou",
+  "caption": "Atelier numérique pour la jeunesse",
+  "place": "Parakou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 424,
+    "file": "/assets/img/parakou-numerique-640.webp",
+    "bytes": 29920
+   },
+   {
+    "w": 1280,
+    "h": 848,
+    "file": "/assets/img/parakou-numerique-1280.webp",
+    "bytes": 77580
+   },
+   {
+    "w": 1920,
+    "h": 1272,
+    "file": "/assets/img/parakou-numerique-1920.webp",
+    "bytes": 145054
+   }
+  ],
+  "tint": "#7c91a1",
+  "credit": "Saliousoft",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Atelier_de_formation_WikiForHumanRights_2025_%C3%A0_Parakou_02.jpg"
+ },
+ "parakou-danse": {
+  "alt": "Enfants dansant dans une salle à Parakou",
+  "caption": "Danse et jeunesse",
+  "place": "Parakou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/parakou-danse-640.webp",
+    "bytes": 38054
+   }
+  ],
+  "tint": "#8f7758",
+  "credit": "VOITAN Jaurès Didier",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Atelier_de_dance.jpg"
+ },
+ "parakou-savane": {
+  "alt": "Arbre isolé dans la savane autour de Parakou sous un ciel d'orage",
+  "caption": "La savane aux portes de la ville",
+  "place": "Parakou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/parakou-savane-640.webp",
+    "bytes": 31338
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/parakou-savane-1280.webp",
+    "bytes": 120894
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/parakou-savane-1920.webp",
+    "bytes": 269222
+   }
+  ],
+  "tint": "#938e84",
+  "credit": "Saliousoft",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Armature_urbaine_de_Parakou_en_saison_des_pluies_04.jpg"
+ },
+ "parakou-rue": {
+  "alt": "Rue et bâtiments du troisième arrondissement de Parakou",
+  "caption": "Le troisième arrondissement",
+  "place": "Parakou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/parakou-rue-640.webp",
+    "bytes": 58954
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/parakou-rue-1280.webp",
+    "bytes": 242904
+   }
+  ],
+  "tint": "#615b47",
+  "credit": "Africasounvi",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:3eme_arrondissement_Parakou.jpg"
+ },
+ "parakou-monument": {
+  "alt": "Monument de la place Bio Guerra à Parakou",
+  "caption": "Place Bio Guerra",
+  "place": "Parakou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/parakou-monument-640.webp",
+    "bytes": 33806
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/parakou-monument-1280.webp",
+    "bytes": 133942
+   }
+  ],
+  "tint": "#838079",
+  "credit": "Fawaz.tairou",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Place_Bio_Guerra_1_-_Parakou.jpg"
+ },
+ "parakou-moto": {
+  "alt": "Famille à moto sur une route de Parakou",
+  "caption": "Sur la route, au quotidien",
+  "place": "Parakou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 550,
+    "file": "/assets/img/parakou-moto-640.webp",
+    "bytes": 44394
+   },
+   {
+    "w": 1280,
+    "h": 1099,
+    "file": "/assets/img/parakou-moto-1280.webp",
+    "bytes": 121752
+   }
+  ],
+  "tint": "#718d95",
+  "credit": "GBETONGNINOUGBO JOSEPH HERVE AHISSOU",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Carrying_the_humanity.jpg"
+ },
+ "parakou-marche": {
+  "alt": "Entrée du marché international Arzeke de Parakou",
+  "caption": "Le marché international Arzeke",
+  "place": "Parakou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/parakou-marche-640.webp",
+    "bytes": 37036
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/parakou-marche-1280.webp",
+    "bytes": 91506
+   }
+  ],
+  "tint": "#81817b",
+  "credit": "UXrocks",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Parakouinternationalmarket.jpg"
+ },
+ "natitingou-collines": {
+  "alt": "Vue sur les collines et la ville de Natitingou",
+  "caption": "Natitingou et ses collines",
+  "place": "Natitingou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 428,
+    "file": "/assets/img/natitingou-collines-640.webp",
+    "bytes": 49276
+   },
+   {
+    "w": 1280,
+    "h": 857,
+    "file": "/assets/img/natitingou-collines-1280.webp",
+    "bytes": 186254
+   },
+   {
+    "w": 1920,
+    "h": 1285,
+    "file": "/assets/img/natitingou-collines-1920.webp",
+    "bytes": 385674
+   }
+  ],
+  "tint": "#69695e",
+  "credit": "Baliola",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Benin_Natitingou.JPG"
+ },
+ "natitingou-mosquee": {
+  "alt": "La mosquée centrale de Natitingou",
+  "caption": "La mosquée centrale",
+  "place": "Natitingou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/natitingou-mosquee-640.webp",
+    "bytes": 86196
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/natitingou-mosquee-1280.webp",
+    "bytes": 368744
+   }
+  ],
+  "tint": "#546254",
+  "credit": "GBETONGNINOUGBO JOSEPH HERVE AHISSOU",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mosquee_Centrale_Natitingou-Benin_Joseph_Herve_Ahissou.jpg"
+ },
+ "natitingou-tata": {
+  "alt": "Façade décorée d'une construction tata somba près de Natitingou",
+  "caption": "Motifs d'une Tata Somba",
+  "place": "Natitingou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 408,
+    "file": "/assets/img/natitingou-tata-640.webp",
+    "bytes": 43600
+   },
+   {
+    "w": 1280,
+    "h": 815,
+    "file": "/assets/img/natitingou-tata-1280.webp",
+    "bytes": 174892
+   },
+   {
+    "w": 1920,
+    "h": 1223,
+    "file": "/assets/img/natitingou-tata-1920.webp",
+    "bytes": 391236
+   }
+  ],
+  "tint": "#a48f7b",
+  "credit": "Dominik Schwarz",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Tata-somba-Kirche.jpg"
+ },
+ "natitingou-musee": {
+  "alt": "Bâtiment du musée Kaba de Natitingou",
+  "caption": "Le musée Kaba",
+  "place": "Natitingou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/natitingou-musee-640.webp",
+    "bytes": 39714
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/natitingou-musee-1280.webp",
+    "bytes": 129568
+   }
+  ],
+  "tint": "#887976",
+  "credit": "Barke11",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vue_de_face_du_Mus%C3%A9e_KABA_de_Natitingou_03.jpg"
+ },
+ "natitingou-statue": {
+  "alt": "Statue de Kaba à Natitingou",
+  "caption": "La statue de Kaba",
+  "place": "Natitingou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/natitingou-statue-640.webp",
+    "bytes": 14562
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/natitingou-statue-1280.webp",
+    "bytes": 41860
+   }
+  ],
+  "tint": "#707d91",
+  "credit": "Barke11",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vue_de_face_de_la_statue_de_KABA_de_Natitingou_01.jpg"
+ },
+ "natitingou-case": {
+  "alt": "Case traditionnelle dans le paysage de l'Atacora",
+  "caption": "Habitat de l'Atacora",
+  "place": "Natitingou",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/natitingou-case-640.webp",
+    "bytes": 64298
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/natitingou-case-1280.webp",
+    "bytes": 281682
+   }
+  ],
+  "tint": "#af977e",
+  "credit": "Dominik Schwarz",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Tata_Somba_1a.jpg"
+ },
+ "nikki-gaani": {
+  "alt": "Cavaliers en tenue de fête lors de la Gaani à Nikki",
+  "caption": "La Gaani, fête des chevaux",
+  "place": "Nikki",
+  "sources": [
+   {
+    "w": 640,
+    "h": 486,
+    "file": "/assets/img/nikki-gaani-640.webp",
+    "bytes": 81618
+   },
+   {
+    "w": 1280,
+    "h": 971,
+    "file": "/assets/img/nikki-gaani-1280.webp",
+    "bytes": 234970
+   },
+   {
+    "w": 1920,
+    "h": 1457,
+    "file": "/assets/img/nikki-gaani-1920.webp",
+    "bytes": 381036
+   }
+  ],
+  "tint": "#79685b",
+  "credit": "DEGAN Gabin",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:DEGAN_Gabin_(_gani%27s_party_).jpg"
+ },
+ "nikki-mosquee": {
+  "alt": "Mosquée du musée royal de Nikki",
+  "caption": "La mosquée du palais",
+  "place": "Nikki",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/nikki-mosquee-640.webp",
+    "bytes": 31470
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/nikki-mosquee-1280.webp",
+    "bytes": 139158
+   }
+  ],
+  "tint": "#aa9983",
+  "credit": "Mohamed agnide",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_du_Mus%C3%A9e_royal_de_Nikki_(Vue_de_loin)_01.jpg"
+ },
+ "nikki-griot": {
+  "alt": "Griot en boubou blanc devant le palais de Nikki",
+  "caption": "Un griot du palais",
+  "place": "Nikki",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/nikki-griot-640.webp",
+    "bytes": 33620
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/nikki-griot-1280.webp",
+    "bytes": 154542
+   }
+  ],
+  "tint": "#c4987c",
+  "credit": "Mohamed agnide",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Un_griot_du_palais_de_Nikki.jpg"
+ },
+ "nikki-palais": {
+  "alt": "Entrée du musée royal de Nikki",
+  "caption": "L'entrée du musée royal",
+  "place": "Nikki",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/nikki-palais-640.webp",
+    "bytes": 42630
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/nikki-palais-1280.webp",
+    "bytes": 226792
+   }
+  ],
+  "tint": "#b38659",
+  "credit": "Mohamed agnide",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:L%27entr%C3%A9e_du_ms%C3%A9e_royal_de_Nikki.jpg"
+ },
+ "nikki-musee": {
+  "alt": "Bâtiment du musée royal Danri de Nikki",
+  "caption": "Le musée Danri",
+  "place": "Nikki",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/nikki-musee-640.webp",
+    "bytes": 26222
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/nikki-musee-1280.webp",
+    "bytes": 110978
+   }
+  ],
+  "tint": "#c18455",
+  "credit": "Saliousoft",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:B%C3%A2timent_du_mus%C3%A9e_royal_Danri_de_Nikki,_d%C3%A9partement_du_Borgou,_B%C3%A9nin_01.jpg"
+ },
+ "nikki-palais-roi": {
+  "alt": "Palais du roi de Nikki sous un grand arbre",
+  "caption": "Le palais du roi",
+  "place": "Nikki",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/nikki-palais-roi-640.webp",
+    "bytes": 55526
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/nikki-palais-roi-1280.webp",
+    "bytes": 194750
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/nikki-palais-roi-1920.webp",
+    "bytes": 351766
+   }
+  ],
+  "tint": "#917d6b",
+  "credit": "Saliousoft",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Palais_du_roi_de_NIkki.jpg"
+ },
+ "soava-voile": {
+  "alt": "Pirogue à voile sur les eaux de Ganvié",
+  "caption": "Pirogue à voile sur le lac Nokoué",
+  "place": "Sô-Ava",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/soava-voile-640.webp",
+    "bytes": 42524
+   },
+   {
+    "w": 1280,
+    "h": 959,
+    "file": "/assets/img/soava-voile-1280.webp",
+    "bytes": 161300
+   },
+   {
+    "w": 1920,
+    "h": 1439,
+    "file": "/assets/img/soava-voile-1920.webp",
+    "bytes": 352808
+   }
+  ],
+  "tint": "#888784",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pirogue_%C3%A0_voile_ou_pirogue_%C3%A0_balancier_de_type_b%C3%A9ninois_sur_le_fleuve_de_Ganvi%C3%A9_05.jpg"
+ },
+ "soava-village": {
+  "alt": "Village lacustre sur pilotis à Ganvié",
+  "caption": "Ganvié, village sur pilotis",
+  "place": "Sô-Ava",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/soava-village-640.webp",
+    "bytes": 38036
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/soava-village-1280.webp",
+    "bytes": 143082
+   },
+   {
+    "w": 1920,
+    "h": 1280,
+    "file": "/assets/img/soava-village-1920.webp",
+    "bytes": 315236
+   }
+  ],
+  "tint": "#999e9d",
+  "credit": "Dan Sloan",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Store_and_casino_-_Ganvie,_Benin_(33721536115).jpg"
+ },
+ "soava-marche": {
+  "alt": "Marché sur l'eau à Ganvié",
+  "caption": "Le marché sur l'eau",
+  "place": "Sô-Ava",
+  "sources": [
+   {
+    "w": 640,
+    "h": 359,
+    "file": "/assets/img/soava-marche-640.webp",
+    "bytes": 40730
+   },
+   {
+    "w": 1280,
+    "h": 719,
+    "file": "/assets/img/soava-marche-1280.webp",
+    "bytes": 142248
+   }
+  ],
+  "tint": "#929288",
+  "credit": "Kulttuurinavigaattori",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Market_at_Ganvie_Benin_Dec_2017.jpg"
+ },
+ "soava-cases": {
+  "alt": "Maisons en bois sur pilotis entourées de végétation aquatique",
+  "caption": "Maisons sur pilotis",
+  "place": "Sô-Ava",
+  "sources": [
+   {
+    "w": 640,
+    "h": 359,
+    "file": "/assets/img/soava-cases-640.webp",
+    "bytes": 59584
+   },
+   {
+    "w": 1280,
+    "h": 719,
+    "file": "/assets/img/soava-cases-1280.webp",
+    "bytes": 220984
+   }
+  ],
+  "tint": "#7a8173",
+  "credit": "Kulttuurinavigaattori",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Houses_in_Ganvie_Benin_Dec_2017.jpg"
+ },
+ "soava-pirogue": {
+  "alt": "Embarcadère et pirogues à Ganvié",
+  "caption": "L'embarcadère",
+  "place": "Sô-Ava",
+  "sources": [
+   {
+    "w": 640,
+    "h": 359,
+    "file": "/assets/img/soava-pirogue-640.webp",
+    "bytes": 41566
+   },
+   {
+    "w": 1280,
+    "h": 719,
+    "file": "/assets/img/soava-pirogue-1280.webp",
+    "bytes": 164116
+   }
+  ],
+  "tint": "#7a736c",
+  "credit": "Kulttuurinavigaattori",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Port_to_Ganvie_Benin_Dec_2017.jpg"
+ },
+ "soava-enfant": {
+  "alt": "Jeune garçon manœuvrant une pirogue dans la végétation aquatique",
+  "caption": "Sur l'eau, dès le plus jeune âge",
+  "place": "Sô-Ava",
+  "sources": [
+   {
+    "w": 640,
+    "h": 359,
+    "file": "/assets/img/soava-enfant-640.webp",
+    "bytes": 59624
+   },
+   {
+    "w": 1280,
+    "h": 719,
+    "file": "/assets/img/soava-enfant-1280.webp",
+    "bytes": 163184
+   }
+  ],
+  "tint": "#827955",
+  "credit": "Dr. Ondřej Havelka (cestovatel)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fon_people,_Benin,_West_Africa.jpg"
+ },
+ "benin-tissu": {
+  "alt": "Jeune garçon devant des tissus colorés dans une boutique de marché",
+  "caption": "Tissus et commerce",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/benin-tissu-640.webp",
+    "bytes": 40604
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/benin-tissu-1280.webp",
+    "bytes": 106054
+   },
+   {
+    "w": 1920,
+    "h": 1280,
+    "file": "/assets/img/benin-tissu-1920.webp",
+    "bytes": 190576
+   }
+  ],
+  "tint": "#968e7d",
+  "credit": "Abby Wendle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Benin_-_Market_photo_13.jpg"
+ },
+ "benin-poissonniere": {
+  "alt": "Marchande de poissons fumés souriante sur un marché béninois",
+  "caption": "Poissonnière sur un marché",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/benin-poissonniere-640.webp",
+    "bytes": 53512
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/benin-poissonniere-1280.webp",
+    "bytes": 158852
+   }
+  ],
+  "tint": "#796160",
+  "credit": "FiossifrejusduBénin",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Les_femmes_et_le_bien_%C3%AAtre_de_la_gastronomie._05.jpg"
+ },
+ "benin-marche": {
+  "alt": "Scène animée de marché avec des paniers et des denrées",
+  "caption": "Scène de marché",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 471,
+    "file": "/assets/img/benin-marche-640.webp",
+    "bytes": 69850
+   },
+   {
+    "w": 1280,
+    "h": 941,
+    "file": "/assets/img/benin-marche-1280.webp",
+    "bytes": 254196
+   },
+   {
+    "w": 1920,
+    "h": 1412,
+    "file": "/assets/img/benin-marche-1920.webp",
+    "bytes": 517022
+   }
+  ],
+  "tint": "#7b7062",
+  "credit": "PGskot",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Having_fun_at_the_market.jpg"
+ },
+ "benin-marche-femmes": {
+  "alt": "Jeune vendeuse dans une case ouverte sur un marché",
+  "caption": "Jeunesse et commerce",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/benin-marche-femmes-640.webp",
+    "bytes": 37942
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/benin-marche-femmes-1280.webp",
+    "bytes": 119860
+   }
+  ],
+  "tint": "#8b6e60",
+  "credit": "Abby Wendle",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Benin_-_Market_photo_12.jpg"
+ },
+ "benin-egungun": {
+  "alt": "Costumes d'Egungun colorés alignés lors d'un festival",
+  "caption": "Egungun, mémoire et spectacle",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 417,
+    "file": "/assets/img/benin-egungun-640.webp",
+    "bytes": 47698
+   },
+   {
+    "w": 1280,
+    "h": 835,
+    "file": "/assets/img/benin-egungun-1280.webp",
+    "bytes": 181330
+   },
+   {
+    "w": 1920,
+    "h": 1252,
+    "file": "/assets/img/benin-egungun-1920.webp",
+    "bytes": 396104
+   }
+  ],
+  "tint": "#afa1a1",
+  "credit": "Romario COFFI",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Festival_des_masques_-_05.jpg"
+ },
+ "benin-egungun-2": {
+  "alt": "Masques et costumes colorés lors d'un festival au Bénin",
+  "caption": "Festival des masques",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/benin-egungun-2-640.webp",
+    "bytes": 46694
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/benin-egungun-2-1280.webp",
+    "bytes": 169308
+   }
+  ],
+  "tint": "#b39f9c",
+  "credit": "Romario COFFI",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Festival_des_masques_-_06.jpg"
+ },
+ "benin-wagasi": {
+  "alt": "Plat de wagasi servi avec une sauce verte",
+  "caption": "Wagasi et sauce",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/benin-wagasi-640.webp",
+    "bytes": 58608
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/benin-wagasi-1280.webp",
+    "bytes": 251752
+   }
+  ],
+  "tint": "#a47f6e",
+  "credit": "Saliousoft",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Arts_culinaire_du_B%C3%A9nin_-_Les_plats_de_la_cuisine_b%C3%A9ninoise_16.jpg"
+ },
+ "benin-beignets": {
+  "alt": "Beignets dorés disposés sur un plateau",
+  "caption": "Beignets de rue",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/benin-beignets-640.webp",
+    "bytes": 74316
+   },
+   {
+    "w": 1280,
+    "h": 854,
+    "file": "/assets/img/benin-beignets-1280.webp",
+    "bytes": 353058
+   }
+  ],
+  "tint": "#834c2e",
+  "credit": "Adoscam",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:G%C3%A2teau_sur_un_plateau_au_B%C3%A9nin_03.jpg"
+ },
+ "benin-riz": {
+  "alt": "Plat de riz et poisson frit de la cuisine béninoise",
+  "caption": "Riz et poisson",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/benin-riz-640.webp",
+    "bytes": 32216
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/benin-riz-1280.webp",
+    "bytes": 74586
+   }
+  ],
+  "tint": "#99775e",
+  "credit": "Saliousoft",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Arts_culinaire_du_B%C3%A9nin_-_Les_plats_de_la_cuisine_b%C3%A9ninoise_21.jpg"
+ },
+ "benin-savane": {
+  "alt": "Arbres isolés dans une savane verdoyante du Bénin",
+  "caption": "La savane béninoise",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/benin-savane-640.webp",
+    "bytes": 49580
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/benin-savane-1280.webp",
+    "bytes": 212850
+   },
+   {
+    "w": 1920,
+    "h": 1280,
+    "file": "/assets/img/benin-savane-1920.webp",
+    "bytes": 489434
+   }
+  ],
+  "tint": "#5f8189",
+  "credit": "Padonou Dotou",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Arbres_dans_la_savane.jpg"
+ },
+ "benin-vallee": {
+  "alt": "Vallée et relief de l'Atacora au Bénin",
+  "caption": "Les reliefs de l'Atacora",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 480,
+    "file": "/assets/img/benin-vallee-640.webp",
+    "bytes": 65356
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "/assets/img/benin-vallee-1280.webp",
+    "bytes": 237742
+   },
+   {
+    "w": 1920,
+    "h": 1440,
+    "file": "/assets/img/benin-vallee-1920.webp",
+    "bytes": 453274
+   }
+  ],
+  "tint": "#636d59",
+  "credit": "Wegmann",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Atakora_Benin_Batia.jpg"
+ },
+ "benin-piste": {
+  "alt": "Piste de terre au coucher du soleil dans le parc de la Pendjari",
+  "caption": "Piste au coucher du soleil",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/benin-piste-640.webp",
+    "bytes": 20630
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/benin-piste-1280.webp",
+    "bytes": 57146
+   },
+   {
+    "w": 1920,
+    "h": 1280,
+    "file": "/assets/img/benin-piste-1920.webp",
+    "bytes": 98910
+   }
+  ],
+  "tint": "#8b7b69",
+  "credit": "Fawaz.tairou",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Coucher_de_soleil_sur_le_parc_national_de_la_Pendjari_(B%C3%A9nin).jpg"
+ },
+ "benin-tata": {
+  "alt": "Construction en terre aux toits de chaume dans le nord du Bénin",
+  "caption": "Architecture de terre",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/benin-tata-640.webp",
+    "bytes": 53340
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/benin-tata-1280.webp",
+    "bytes": 265644
+   }
+  ],
+  "tint": "#a28b76",
+  "credit": "Dan Sloan",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:20170322-2017_A630739_(32882676054).jpg"
+ },
+ "benin-terre": {
+  "alt": "Détail de murs en terre d'une construction traditionnelle",
+  "caption": "La terre comme matériau",
+  "place": "Bénin",
+  "sources": [
+   {
+    "w": 640,
+    "h": 427,
+    "file": "/assets/img/benin-terre-640.webp",
+    "bytes": 64018
+   },
+   {
+    "w": 1280,
+    "h": 853,
+    "file": "/assets/img/benin-terre-1280.webp",
+    "bytes": 309398
+   }
+  ],
+  "tint": "#b19a85",
+  "credit": "Dan Sloan",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:20170322-2017_A630732_(33596263881).jpg"
+ }
+}

@@ -1,0 +1,238 @@
+/* Direction 21 — Reflets
+   Une traversée WebGL : ciel et eau sont des shaders GLSL (PixiJS),
+   les silhouettes sont des calques vectoriels parallactiques, et
+   l'heure se pilote depuis l'écran. Papier, encre, or sur le rivage ;
+   indigo profond sur le lagon.
+   Fraunces pour la voix, JetBrains Mono pour le carnet. */
+
+.tpl--reflets {
+  --font-display: "fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "instrument-sans", Arial, sans-serif;
+  --font-mono: "jetbrains-mono", "Courier New", monospace;
+  --bg: #f5efe1;
+  --surface: #fdfbf2;
+  --line: color-mix(in srgb, #16222a 14%, #f5efe1);
+  --line-strong: color-mix(in srgb, #16222a 34%, #f5efe1);
+  --radius: 8px;
+  --radius-lg: 16px;
+  --header-h: 74px;
+  --gold: #d9a545;
+  --gold-soft: #e8c988;
+  --ink: #101c1f;
+  --lagoon: var(--c-primary);
+  --deep: var(--c-deep);
+  background: var(--bg);
+}
+html:has(.tpl--reflets) { scroll-padding-top: calc(var(--demo-h) + 88px); }
+.tpl--reflets .section { scroll-margin-top: 0; }
+.tpl--reflets ::selection { background: var(--gold); color: var(--ink); }
+.tpl--reflets .btn { border-radius: 999px; border-width: 1px; font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.02em; }
+.tpl--reflets .btn--solid { background: var(--gold); border-color: var(--gold); color: #22180a; }
+.tpl--reflets .btn--solid:hover { background: var(--gold-soft); border-color: var(--gold-soft); }
+.tpl--reflets .btn--ghost { border-color: rgb(245 239 225 / 0.4); color: #f5efe1; }
+.tpl--reflets .btn--ghost:hover { background: #f5efe1; color: var(--ink); }
+.tpl--reflets .tag { border-radius: 999px; }
+.tpl--reflets .eyebrow { color: var(--lagoon); letter-spacing: 0.14em; }
+.tpl--reflets .eyebrow__mark { width: 1.6rem; height: 1px; background: var(--gold); }
+.tpl--reflets .sec-head { align-items: end; border-bottom: 1px solid var(--line-strong); padding-bottom: 0.9rem; }
+.tpl--reflets .sec-head h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.15rem, 4.6vw, 4rem); line-height: 1.02; letter-spacing: -0.04em; }
+.tpl--reflets .sec-head__lead { max-width: 46ch; font-size: 0.9rem; }
+.tpl--reflets .demonote { font-family: var(--font-mono); font-size: 0.62rem; border-top: 1px dashed var(--line-strong); }
+
+/* En-tête --------------------------------------------------------------- */
+
+.t21-head { position: sticky; top: var(--demo-h); z-index: 320; background: rgb(7 13 18 / 0.6); border-bottom: 1px solid rgb(245 239 225 / 0.14); backdrop-filter: blur(14px); transition: background 0.3s var(--ease); }
+.t21-head.is-scrolled { background: rgb(7 13 18 / 0.92); }
+.t21-head__inner { display: flex; align-items: center; gap: 1.5rem; min-height: 70px; max-width: 1440px; margin-inline: auto; padding: 0 clamp(1rem, 3.6vw, 3.4rem); color: #f5efe1; }
+.t21-head .brand__mark { color: var(--gold); }
+.t21-head .brand__name { font-family: var(--font-display); font-size: 1.14rem; font-weight: 500; letter-spacing: -0.01em; color: #f5efe1; }
+.t21-head .brand__sub { font-size: 0.48rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(245 239 225 / 0.5); }
+.t21-nav { display: flex; gap: clamp(0.8rem, 2vw, 1.6rem); margin-left: auto; }
+.t21-nav a { position: relative; padding: 0.3rem 0; font-size: 0.68rem; color: rgb(245 239 225 / 0.75); text-decoration: none; }
+.t21-nav a::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform 0.3s var(--ease); }
+.t21-nav a:hover { color: #fff; }
+.t21-nav a:hover::after { transform: scaleX(1); }
+.t21-head__cta { display: inline-flex; align-items: center; gap: 0.32rem; padding: 0.42rem 0.85rem; border: 1px solid rgb(245 239 225 / 0.4); border-radius: 999px; font-family: var(--font-mono); font-size: 0.62rem; color: #f5efe1; text-decoration: none; }
+.t21-head__cta:hover { background: var(--gold); border-color: var(--gold); color: #22180a; }
+.t21-head .navtoggle { display: none; border-radius: 999px; border-color: rgb(245 239 225 / 0.4); color: #f5efe1; }
+@media (max-width: 1100px) { .t21-nav, .t21-head__cta { display: none; } .t21-head .navtoggle { display: inline-flex; margin-left: auto; } }
+
+/* Héros — scène WebGL --------------------------------------------------- */
+
+.reflets-hero { position: relative; display: flex; min-height: clamp(660px, calc(100svh - var(--demo-h) - 70px), 940px); margin-top: -70px; padding: calc(70px + 2rem) clamp(1.2rem, 4.5vw, 4.5rem) 5.2rem; overflow: hidden; background: #0b1024; color: #f5efe1; isolation: isolate; }
+.reflets-hero__fallback { position: absolute; inset: 0; z-index: -3; margin: 0; opacity: 1; transition: opacity 1.6s var(--ease) 0.25s; }
+.reflets-hero__fallback img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.reflets-hero--live .reflets-hero__fallback { opacity: 0; }
+.reflets-scene { position: absolute; inset: 0; z-index: -2; }
+.reflets-scene canvas { display: block; }
+.reflets-hero__scrim { position: absolute; inset: 0; z-index: -1; background: linear-gradient(96deg, rgb(6 11 15 / 0.78) 0%, rgb(6 11 15 / 0.42) 36%, rgb(6 11 15 / 0) 62%), linear-gradient(180deg, rgb(6 11 15 / 0.5) 0%, rgb(6 11 15 / 0) 24%, rgb(6 11 15 / 0) 58%, rgb(6 11 15 / 0.66) 100%); }
+.reflets-hero__inner { position: relative; z-index: 3; display: flex; flex-direction: column; justify-content: center; max-width: 920px; }
+.t21-kicker { display: flex; align-items: center; gap: 0.6rem; font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-soft); }
+.t21-kicker span { width: 2rem; height: 1px; background: var(--gold); }
+.reflets-hero h1 { margin-top: 1.25rem; font-family: var(--font-display); font-weight: 300; font-size: clamp(4rem, 12vw, 10.6rem); line-height: 0.88; letter-spacing: -0.055em; color: #f5efe1; text-wrap: balance; text-shadow: 0 6px 44px rgb(3 8 12 / 0.4); }
+.reflets-hero h1 span { display: block; }
+.reflets-hero h1 em { display: block; max-width: 22ch; margin-top: 0.22em; font-size: 0.28em; font-style: italic; font-weight: 300; line-height: 1.14; letter-spacing: -0.015em; color: var(--gold); text-shadow: none; }
+.t21-hero__lead { max-width: 50ch; margin-top: 1.35rem; font-size: clamp(0.92rem, 1.15vw, 1.02rem); line-height: 1.72; color: rgb(245 239 225 / 0.84); }
+.t21-hero__actions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.5rem; }
+.t21-hero__actions .btn--ghost { color: #f5efe1; }
+
+/* Heure sur le lac ------------------------------------------------------- */
+
+.t21-time { position: absolute; right: clamp(1.2rem, 4vw, 3.6rem); bottom: 5.4rem; z-index: 4; padding: 0.7rem 0.85rem 0.8rem; border: 1px solid rgb(245 239 225 / 0.2); border-radius: 14px; background: rgb(8 14 18 / 0.58); backdrop-filter: blur(12px); }
+.t21-time__label { font-family: var(--font-mono); font-size: 0.46rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(245 239 225 / 0.55); }
+.t21-time__row { display: flex; gap: 0.3rem; margin-top: 0.5rem; }
+.t21-time__row button { display: grid; justify-items: center; gap: 0.12rem; min-width: 64px; padding: 0.42rem 0.45rem 0.38rem; border: 1px solid transparent; border-radius: 10px; background: transparent; color: rgb(245 239 225 / 0.72); cursor: pointer; transition: border-color 0.2s var(--ease), background 0.2s var(--ease), color 0.2s var(--ease); }
+.t21-time__row button span { font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.02em; }
+.t21-time__row button small { font-family: var(--font-mono); font-size: 0.48rem; color: rgb(245 239 225 / 0.4); font-variant-numeric: tabular-nums; }
+.t21-time__row button:hover { color: #fff; background: rgb(245 239 225 / 0.08); }
+.t21-time__row button[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #22180a; }
+.t21-time__row button[aria-pressed="true"] small { color: rgb(34 24 10 / 0.72); }
+
+/* Carnet de traversée (panneau incliné) ---------------------------------- */
+
+.t21-carnet { position: absolute; right: clamp(1.4rem, 4vw, 3.8rem); top: 21%; z-index: 4; width: min(300px, 24vw); }
+.t21-carnet__inner { padding: 1rem 1.1rem 0.95rem; border: 1px solid rgb(232 201 136 / 0.32); border-radius: 14px; background: linear-gradient(160deg, rgb(13 21 27 / 0.82), rgb(8 13 18 / 0.78)); backdrop-filter: blur(12px); box-shadow: 0 34px 60px -38px rgb(0 0 0 / 0.8); transform-style: preserve-3d; will-change: transform; }
+.t21-carnet__label { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; padding-bottom: 0.55rem; border-bottom: 1px solid rgb(232 201 136 / 0.25); font-family: var(--font-mono); font-size: 0.5rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); }
+.t21-carnet__label span { padding: 0.12rem 0.4rem; border: 1px solid rgb(232 201 136 / 0.4); border-radius: 999px; font-size: 0.42rem; color: var(--gold-soft); }
+.t21-carnet__list { display: grid; gap: 0.62rem; margin-top: 0.7rem; list-style: none; }
+.t21-carnet__list li { display: grid; grid-template-columns: 86px 1fr; gap: 0.6rem; align-items: baseline; font-size: 0.64rem; line-height: 1.45; }
+.t21-carnet__list b { font-family: var(--font-mono); font-weight: 500; font-size: 0.5rem; letter-spacing: 0.06em; text-transform: uppercase; color: rgb(245 239 225 / 0.5); }
+.t21-carnet__list span { color: rgb(245 239 225 / 0.88); }
+.t21-carnet__note { margin-top: 0.75rem; padding-top: 0.55rem; border-top: 1px dashed rgb(232 201 136 / 0.25); font-family: var(--font-mono); font-size: 0.44rem; letter-spacing: 0.04em; color: rgb(245 239 225 / 0.45); }
+@media (max-width: 1180px) { .t21-carnet { display: none; } }
+
+/* Mentions et houle ------------------------------------------------------ */
+
+.reflets-hero__credit { position: absolute; left: clamp(1.2rem, 4.5vw, 4.5rem); bottom: 1.05rem; z-index: 4; font-family: var(--font-mono); font-size: 0.45rem; letter-spacing: 0.03em; color: rgb(245 239 225 / 0.52); }
+.reflets-hero__note { position: absolute; left: clamp(1.2rem, 4.5vw, 4.5rem); bottom: 2rem; z-index: 4; display: flex; align-items: center; gap: 0.3rem; font-family: var(--font-mono); font-size: 0.45rem; color: rgb(245 239 225 / 0.62); }
+.reflets-hero__wave { position: absolute; left: 0; right: 0; bottom: -1px; z-index: 3; width: 100%; height: clamp(48px, 6.4vw, 76px); }
+.reflets-hero__wave path { fill: var(--bg); }
+@media (prefers-reduced-motion: reduce) { .reflets-hero__fallback { transition: none; } }
+@media (max-width: 1000px) {
+  .reflets-hero { flex-direction: column; justify-content: flex-end; gap: 1.2rem; padding-bottom: 5.5rem; }
+  .reflets-hero__scrim { background: linear-gradient(96deg, rgb(6 11 15 / 0.82) 0%, rgb(6 11 15 / 0.5) 55%, rgb(6 11 15 / 0.15) 100%), linear-gradient(180deg, rgb(6 11 15 / 0.42) 0%, rgb(6 11 15 / 0.1) 30%, rgb(6 11 15 / 0.72) 100%); }
+  .reflets-hero__inner { justify-content: flex-end; }
+  .t21-hero__lead { color: rgb(245 239 225 / 0.96); text-shadow: 0 1px 14px rgb(3 8 12 / 0.55); }
+  .t21-time { position: static; display: grid; gap: 0.45rem; margin: 1.1rem 0 0; padding: 0.7rem 0.75rem; align-self: stretch; }
+  .t21-time__row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.28rem; overflow-x: visible; }
+  .t21-time__row button { min-width: 0; padding: 0.4rem 0.2rem 0.34rem; }
+  .t21-time__row button span { font-size: 0.5rem; }
+  .t21-time__row button small { font-size: 0.44rem; }
+  .reflets-hero__note { display: none; }
+}
+@media (max-width: 600px) {
+  .reflets-hero { min-height: 0; padding-top: calc(70px + 3.4rem); }
+  .reflets-hero h1 { font-size: clamp(3.2rem, 17vw, 5.6rem); }
+  .reflets-hero__credit { display: none; }
+  .t21-hero__lead { font-size: 0.94rem; }
+}
+
+/* Rivage ----------------------------------------------------------------- */
+
+.t21-rivage { background: var(--bg); }
+.t21-rivage__grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr); gap: clamp(2rem, 6vw, 6rem); align-items: start; }
+.t21-label { display: flex; align-items: baseline; gap: 0.5rem; font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+.t21-label span { color: var(--lagoon); }
+.t21-rivage h2 { margin-top: 0.6rem; font-family: var(--font-display); font-size: clamp(2.2rem, 4.8vw, 4.3rem); font-weight: 400; line-height: 1.02; letter-spacing: -0.045em; }
+.t21-lead { max-width: 56ch; margin-top: 1.35rem; font-size: 0.99rem; line-height: 1.85; color: var(--muted); }
+.t21-lead::first-letter { float: left; margin: 0.06em 0.12em 0 0; font-family: var(--font-display); font-size: 3.3em; font-weight: 400; line-height: 0.78; color: var(--lagoon); }
+.t21-quote { max-width: 44ch; margin-top: 1.5rem; padding-left: 1.1rem; border-left: 2px solid var(--gold); font-family: var(--font-display); font-size: clamp(1.05rem, 1.7vw, 1.3rem); font-style: italic; font-weight: 300; line-height: 1.45; color: var(--deep); }
+.t21-rivage .demonote { margin-top: 1.2rem; }
+.t21-rivage__figure { position: relative; margin: 0; padding: 0.65rem; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 4px; box-shadow: 14px 16px 0 color-mix(in srgb, var(--lagoon) 10%, transparent); }
+.t21-rivage__figure::before, .t21-rivage__figure::after { content: "+"; position: absolute; font-family: var(--font-mono); font-size: 0.8rem; color: var(--gold); }
+.t21-rivage__figure::before { top: -0.75rem; left: -0.35rem; }
+.t21-rivage__figure::after { bottom: -0.8rem; right: -0.35rem; }
+.t21-rivage__figure img { display: block; width: 100%; aspect-ratio: 4 / 4.35; object-fit: cover; }
+.t21-rivage__figure figcaption { padding: 0.65rem 0.2rem 0.15rem; font-family: var(--font-mono); font-size: 0.55rem; line-height: 1.6; color: var(--faint); }
+.t21-rivage__stats { margin-top: clamp(2.2rem, 4.4vw, 3.6rem); padding-top: 1.3rem; border-top: 1px solid var(--line-strong); }
+.t21-rivage__stats .stats--blocks { display: grid; grid-template-columns: repeat(4, 1fr); }
+.t21-rivage__stats .stat { padding: 0 1.2rem; border-right: 1px solid var(--line); }
+.t21-rivage__stats .stat:first-child { padding-left: 0; }
+.t21-rivage__stats .stat:last-of-type { border-right: 0; }
+.t21-rivage__stats .stat__value { font-family: var(--font-display); font-size: clamp(1.9rem, 3.6vw, 3.1rem); font-weight: 300; line-height: 1; letter-spacing: -0.04em; color: var(--deep); }
+.t21-rivage__stats .stat__label { margin-top: 0.35rem; font-size: 0.68rem; }
+.t21-rivage__stats .stat__note { font-size: 0.52rem; }
+.t21-rivage__stats .stats__note { grid-column: 1 / -1; margin-top: 0.8rem; padding-top: 0.5rem; border-top: 1px dashed var(--line-strong); font-family: var(--font-mono); font-size: 0.52rem; }
+@media (max-width: 900px) { .t21-rivage__grid { grid-template-columns: 1fr; } .t21-rivage__figure { max-width: 480px; } .t21-rivage__stats .stats--blocks { grid-template-columns: 1fr 1fr; } .t21-rivage__stats .stat { padding: 0.8rem; border-bottom: 1px solid var(--line); } .t21-rivage__stats .stat:nth-of-type(2n) { border-right: 0; } }
+
+/* Houle intermédiaire ---------------------------------------------------- */
+
+.t21-tide { position: relative; height: 30px; background: var(--bg); overflow: hidden; }
+.t21-tide svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.t21-tide path { fill: color-mix(in srgb, var(--lagoon) 10%, var(--bg)); }
+
+/* Village ---------------------------------------------------------------- */
+
+.t21-village { background: var(--surface); }
+.tpl--reflets #village { background: var(--surface); }
+.tpl--reflets #village .attractions__grid { grid-template-columns: repeat(4, 1fr); gap: 0.9rem; }
+.tpl--reflets #village .attraction { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line-strong); border-radius: var(--radius-lg); background: var(--bg); }
+.tpl--reflets #village .attraction__media { overflow: hidden; }
+.tpl--reflets #village .attraction__media img { width: 100%; aspect-ratio: 4 / 3.1; object-fit: cover; transition: transform 0.6s var(--ease); }
+.tpl--reflets #village .attraction:hover .attraction__media img { transform: scale(1.05); }
+.tpl--reflets #village .attraction__body { display: flex; flex-direction: column; flex: 1; padding: 0.95rem; }
+.tpl--reflets #village .attraction__meta { display: flex; justify-content: space-between; gap: 0.5rem; font-family: var(--font-mono); font-size: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--lagoon); }
+.tpl--reflets #village .attraction h3 { margin-top: 0.45rem; font-family: var(--font-display); font-size: 1.18rem; font-weight: 400; letter-spacing: -0.02em; }
+.tpl--reflets #village .attraction p { margin-top: 0.4rem; font-size: 0.76rem; line-height: 1.55; color: var(--muted); }
+.tpl--reflets #village .attraction__place { display: inline-flex; align-items: center; gap: 0.3rem; margin-top: auto; padding-top: 0.65rem; font-size: 0.58rem; color: var(--lagoon); }
+@media (max-width: 1100px) { .tpl--reflets #village .attractions__grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 620px) { .tpl--reflets #village .attractions__grid { grid-template-columns: 1fr; } }
+
+/* Projets --------------------------------------------------------------- */
+
+.tpl--reflets #projets { background: var(--bg); }
+.tpl--reflets #projets .projects__grid { grid-template-columns: 1fr 1fr; gap: 1.4rem; }
+.tpl--reflets #projets .project { display: grid; grid-template-columns: 120px minmax(0, 1fr); border: 1px solid var(--line-strong); border-radius: var(--radius-lg); overflow: hidden; background: var(--surface); transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease); }
+.tpl--reflets #projets .project:hover { transform: translateY(-4px); box-shadow: 0 26px 44px -30px rgb(16 28 31 / 0.5); }
+.tpl--reflets #projets .project__media { overflow: hidden; }
+.tpl--reflets #projets .project__media img { width: 100%; height: 100%; object-fit: cover; }
+.tpl--reflets #projets .project__body { padding: 1rem 1.1rem; }
+.tpl--reflets #projets .project h3 { font-family: var(--font-display); font-size: clamp(1.1rem, 1.6vw, 1.35rem); font-weight: 400; letter-spacing: -0.02em; }
+.tpl--reflets #projets .project p { font-size: 0.77rem; }
+.tpl--reflets #projets .project__facts { display: none; }
+.tpl--reflets #projets .project__meta { font-size: 0.52rem; }
+.tpl--reflets #projets .progress { background: color-mix(in srgb, var(--lagoon) 12%, transparent); }
+.tpl--reflets #projets .progress__bar { background: var(--gold); }
+@media (max-width: 880px) { .tpl--reflets #projets .projects__grid { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .tpl--reflets #projets .project { grid-template-columns: 1fr; } .tpl--reflets #projets .project__media img { height: 160px; } }
+
+/* Actualités — nuit sur le lac ------------------------------------------- */
+
+.tpl--reflets #actualites { background: #0b1318; color: #f5efe1; --fg: #f5efe1; --muted: rgb(245 239 225 / 0.62); --faint: rgb(245 239 225 / 0.4); --line: rgb(245 239 225 / 0.14); --line-strong: rgb(245 239 225 / 0.34); }
+.tpl--reflets #actualites .sec-head { border-bottom-color: rgb(245 239 225 / 0.3); }
+.tpl--reflets #actualites .sec-head h2 { color: #f5efe1; }
+.tpl--reflets #actualites .eyebrow { color: var(--gold); }
+.tpl--reflets #actualites .eyebrow__mark { background: var(--gold); }
+.tpl--reflets #actualites .news-item h3,
+.tpl--reflets #actualites .news-row h3 { font-family: var(--font-display); font-weight: 400; letter-spacing: -0.02em; }
+.tpl--reflets #actualites .news-item__time,
+.tpl--reflets #actualites .news-row__n,
+.tpl--reflets #actualites .news-item__cat,
+.tpl--reflets #actualites .news-row__meta { color: var(--gold-soft); }
+.tpl--reflets #actualites .demonote { border-top-color: rgb(245 239 225 / 0.2); color: rgb(245 239 225 / 0.42); }
+
+/* Carte, guichet, contact ------------------------------------------------ */
+
+.tpl--reflets #carte { background: var(--surface); }
+.tpl--reflets #carte .atlas-map { border: 1px solid var(--line-strong); border-radius: var(--radius-lg); background: color-mix(in srgb, var(--lagoon) 7%, var(--surface)); overflow: hidden; }
+.tpl--reflets #carte .atlas-map__chip { border-radius: 999px; font-family: var(--font-mono); font-size: 0.54rem; }
+.tpl--reflets #carte .atlas-map__chip.is-active { background: var(--deep); border-color: var(--deep); }
+.tpl--reflets #carte .atlas-map__tools button { border-radius: 999px; }
+.tpl--reflets #carte .atlas-map__poi.is-active { box-shadow: inset 3px 0 0 var(--gold); }
+
+.tpl--reflets #services { background: var(--bg); }
+.tpl--reflets #services .svc-grid { gap: 0.8rem; border: 0; }
+.tpl--reflets #services .svc { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.tpl--reflets #services .svc__icon { border-radius: 50%; color: var(--deep); background: color-mix(in srgb, var(--gold) 18%, var(--surface)); border: 0; }
+.tpl--reflets #services .svc__name { font-family: var(--font-display); font-weight: 400; font-size: 0.98rem; }
+.tpl--reflets #services .svc-chip { border-radius: 999px; }
+.tpl--reflets #services .svc-chip.is-active { background: var(--deep); border-color: var(--deep); }
+.tpl--reflets #services .svc-search { border-radius: 999px; background: var(--surface); }
+.tpl--reflets #services .svc-count { color: var(--lagoon); }
+
+.tpl--reflets .mayor { background: color-mix(in srgb, var(--gold) 13%, var(--bg)); }
+.tpl--reflets #contact { background: #0b1318; --fg: #f5efe1; --muted: rgb(245 239 225 / 0.6); --faint: rgb(245 239 225 / 0.38); --line: rgb(245 239 225 / 0.14); --line-strong: rgb(245 239 225 / 0.34); color: #f5efe1; }
+.tpl--reflets #contact .contact__inner { border-top-color: rgb(245 239 225 / 0.24); }
+.t21-rail { padding: 0.9rem clamp(1rem, 4vw, 3.4rem); background: var(--surface); border-top: 1px solid var(--line); }
+.tpl--reflets .footer { background: #070d11; }
+.tpl--reflets .footer__name { font-family: var(--font-display); font-weight: 300; letter-spacing: -0.01em; }

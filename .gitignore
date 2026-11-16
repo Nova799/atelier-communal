@@ -1,0 +1,7 @@
+node_modules/
+dist/
+assets/img/raw/
+assets/img/sheets/
+.vercel
+.DS_Store
+*.log
